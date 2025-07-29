@@ -1,0 +1,220 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Relatório de Análise - Transporte Público</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 0; padding: 20px; color: #333; }
+            .container { max-width: 1200px; margin: 0 auto; }
+            h1, h2, h3 { color: #2c3e50; }
+            h1 { border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+            h2 { border-bottom: 1px solid #3498db; padding-bottom: 5px; margin-top: 30px; }
+            table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+            th, td { text-align: left; padding: 12px; }
+            th { background-color: #3498db; color: white; }
+            tr:nth-child(even) { background-color: #f2f2f2; }
+            .section { margin: 30px 0; }
+            .img-container { text-align: center; margin: 20px 0; }
+            img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px; }
+            .footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; font-size: 0.8em; color: #7f8c8d; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Relatório de Análise - Transporte Público e Recompensas</h1>
+            <p><strong>Data:</strong> 11/05/2025</p>
+            
+            <div class="section">
+                <h2>Resumo Executivo</h2>
+                <p>Este relatório apresenta os resultados da análise da relação entre atributos do transporte público, 
+                perfil socioeconômico dos usuários e a influência de recompensas no comportamento de utilização. 
+                Foram utilizadas técnicas de análise fatorial e modelagem de equações estruturais (SEM) para 
+                identificar os principais fatores e suas relações.</p>
+            </div>
+    
+            <div class="section">
+                <h2>Análise Fatorial</h2>
+                <p>A análise fatorial foi realizada para identificar os principais constructos latentes 
+                nas diferentes dimensões do estudo.</p>
+        
+                <h3>Percepção de Recompensas</h3>
+                <div class="img-container">
+                    <img src="visualizacoes/cargas_fatoriais_Percepção_de_Recompensas.png" alt="Cargas Fatoriais - Percepção de Recompensas">
+                </div>
+                <table>
+                    <tr>
+                        <th>Variável</th>
+                        <th>Fator</th>
+                        <th>Carga</th>
+                    </tr>
+                
+                    <tr>
+                        <td>Eu gostaria de ter a opção de pagar um valor mensal por passagens ilimitadas no transporte público</td>
+                        <td>Fator 1</td>
+                        <td>0.917</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Eu gostaria de ter a opção de pagar um valor diário por passagens ilimitadas no transporte público</td>
+                        <td>Fator 1</td>
+                        <td>0.903</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Eu gostaria de poder realizar uma compra antecipada por passagens ilimitadas no transporte público (pré-pago)</td>
+                        <td>Fator 1</td>
+                        <td>0.881</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Eu gostaria de ter a opção de pagar um valor anual por passagens ilimitadas no transporte público</td>
+                        <td>Fator 1</td>
+                        <td>0.872</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Eu gostaria de receber desconto na passagem por viajar em horários fora de pico</td>
+                        <td>Fator 1</td>
+                        <td>0.853</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Eu gostaria de poder realizar um pagamento depois de usar passagens ilimitadas no transporte público (pós-pago)</td>
+                        <td>Fator 1</td>
+                        <td>0.842</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Eu gostaria de receber um valor de volta por quilômetro viajado no transporte público </td>
+                        <td>Fator 2</td>
+                        <td>0.915</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Eu gostaria de ganhar pontos ou créditos para trocar por produtos e serviços</td>
+                        <td>Fator 2</td>
+                        <td>0.908</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Eu gostaria de poder usar qualquer veículo do transporte público de forma ilimitada</td>
+                        <td>Fator 2</td>
+                        <td>0.780</td>
+                    </tr>
+                    
+                </table>
+                
+                <h3>Qualidade do Serviço</h3>
+                <div class="img-container">
+                    <img src="visualizacoes/cargas_fatoriais_Qualidade_do_Serviço.png" alt="Cargas Fatoriais - Qualidade do Serviço">
+                </div>
+                <table>
+                    <tr>
+                        <th>Variável</th>
+                        <th>Fator</th>
+                        <th>Carga</th>
+                    </tr>
+                
+                    <tr>
+                        <td>Informação de linhas, horários e itinerários  </td>
+                        <td>Fator 1</td>
+                        <td>0.931</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Facilidade de entrada e saída dos veículos e/ou estações e pontos de ônibus  </td>
+                        <td>Fator 1</td>
+                        <td>0.929</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Locais atendidos pelo transporte público </td>
+                        <td>Fator 1</td>
+                        <td>0.913</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Temperatura interna </td>
+                        <td>Fator 1</td>
+                        <td>0.899</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Limpeza dentro do veículo e nos pontos de ônibus e estações</td>
+                        <td>Fator 1</td>
+                        <td>0.833</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Espaço disponível é suficiente para os passageiros sentados ou em pé</td>
+                        <td>Fator 1</td>
+                        <td>0.794</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Preço da passagem</td>
+                        <td>Fator 2</td>
+                        <td>0.842</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Velocidade dos veículos  </td>
+                        <td>Fator 2</td>
+                        <td>0.840</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Segurança dentro dos veículos e nos pontos de ônibus/estações </td>
+                        <td>Fator 2</td>
+                        <td>0.822</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Tempo total de viagem  </td>
+                        <td>Fator 2</td>
+                        <td>0.795</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Frequência com que os veículos passam ao longo dia </td>
+                        <td>Fator 2</td>
+                        <td>0.726</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Confiabilidade nos horários </td>
+                        <td>Fator 2</td>
+                        <td>0.624</td>
+                    </tr>
+                    
+                </table>
+                
+            </div>
+        
+            <div class="section">
+                <h2>Modelos de Equações Estruturais (SEM)</h2>
+                <p>Os modelos de equações estruturais foram ajustados para avaliar as relações causais 
+                entre os constructos identificados na análise fatorial.</p>
+        
+            </div>
+        
+            <div class="section">
+                <h2>Conclusões</h2>
+                <p>Com base nas análises realizadas, podemos concluir que:</p>
+                <ul>
+                    <li>As dimensões de qualidade do serviço se agrupam em fatores distintos que impactam a satisfação geral;</li>
+                    <li>As recompensas são percebidas de forma diferente pelos usuários, com alguns tipos sendo mais valorizados;</li>
+                    <li>Há uma relação significativa entre a percepção de recompensas e a intenção de uso do transporte público;</li>
+                    <li>O perfil socioeconômico dos usuários modera algumas das relações identificadas.</li>
+                </ul>
+            </div>
+            
+            <div class="footer">
+                <p>Relatório gerado automaticamente - {data_atual}</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    

@@ -1,0 +1,68 @@
+Análise para: csv_extraidos/Experiência do usuário.csv
+------------------------------------
+Total de linhas: 705 (incluindo cabeçalho)
+
+Primeiras 5 linhas de dados (após o cabeçalho):
+ID,Eu estou satisfeito com o serviço entregue pelo transporte público ,O serviço transporte Público correspondem às minhas expectativas,Considero que as minhas necessidades de deslocamento estão sendo atendidos pelo transporte público,Considero que o transporte público tem um bom custo benefício ,Considero que sou recompensado por usar o transporte público,Cartões,Aplicativos de celular,Qr Code,Bilhete impresso
+1,Discordo,Discordo totalmente,Discordo,Concordo,Discordo totalmente,Fácil ,Muito difícil,Muito difícil,Muito difícil
+2,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Fácil ,Muito Fácil,Muito difícil,Muito difícil
+3,Discordo,Discordo,Discordo,Discordo,Discordo,Fácil ,Muito difícil,Muito difícil,Muito difícil
+4,Neutro,Concordo,Concordo,Neutro,Neutro,Fácil ,Muito Fácil,Muito difícil,Muito difícil
+5,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Fácil ,Muito difícil,Muito difícil,Muito difícil
+
+------------------------------------
+Informações das Colunas (baseado na inspeção das primeiras 250 linhas):
+
+Todas as colunas, exceto 'ID', são categóricas e representam respostas em uma escala (provavelmente Likert de 5 ou 7 pontos para as primeiras 5 questões de experiência, e uma escala de facilidade para as últimas 4 sobre meios de pagamento).
+
+1.  ID: Identificador numérico.
+    -   Nulos/Vazios: Não aparenta.
+
+2.  Eu estou satisfeito com o serviço entregue pelo transporte público : Categórico (ex: Discordo, Concordo totalmente, Neutro).
+    -   Valores distintos: Concordo totalmente, Concordo, Neutro, Discordo, Discordo totalmente.
+    -   Nulos/Vazios: Não aparenta.
+
+3.  O serviço transporte Público correspondem às minhas expectativas: Categórico (similar à anterior).
+    -   Valores distintos: Concordo totalmente, Concordo, Neutro, Discordo, Discordo totalmente.
+    -   Nulos/Vazios: Não aparenta.
+
+4.  Considero que as minhas necessidades de deslocamento estão sendo atendidos pelo transporte público: Categórico.
+    -   Valores distintos: Concordo totalmente, Concordo, Neutro, Discordo, Discordo totalmente.
+    -   Nulos/Vazios: Não aparenta.
+
+5.  Considero que o transporte público tem um bom custo benefício : Categórico.
+    -   Valores distintos: Concordo totalmente, Concordo, Neutro, Discordo, Discordo totalmente.
+    -   Nulos/Vazios: Não aparenta.
+
+6.  Considero que sou recompensado por usar o transporte público: Categórico.
+    -   Valores distintos: Concordo totalmente, Concordo, Neutro, Discordo, Discordo totalmente.
+    -   Nulos/Vazios: Não aparenta.
+
+7.  Cartões (avaliação de facilidade de uso): Categórico (ex: Fácil , Muito Fácil, Neutro, Difícil, Muito difícil). Nota: "Fácil " com espaço.
+    -   Valores distintos: Muito Fácil, Fácil , Neutro, Difícil, Muito difícil.
+    -   Nulos/Vazios: Não aparenta.
+
+8.  Aplicativos de celular (avaliação de facilidade de uso): Categórico.
+    -   Valores distintos: Muito Fácil, Fácil , Neutro, Difícil, Muito difícil.
+    -   Nulos/Vazios: Não aparenta.
+
+9.  Qr Code (avaliação de facilidade de uso): Categórico.
+    -   Valores distintos: Muito Fácil, Fácil , Neutro, Difícil, Muito difícil.
+    -   Nulos/Vazios: Não aparenta.
+
+10. Bilhete impresso (avaliação de facilidade de uso): Categórico.
+    -   Valores distintos: Muito Fácil, Fácil , Neutro, Difícil, Muito difícil.
+    -   Nulos/Vazios: Não aparenta.
+
+------------------------------------
+Resumo de Estatísticas Descritivas:
+
+-   Todas as colunas de questões são categóricas ordinais. Seria interessante ver a distribuição de frequência para cada categoria em cada pergunta.
+-   A coluna 'ID' é um identificador.
+
+------------------------------------
+Contagem de Valores Nulos/Vazios (estimativa):
+
+-   Com base na inspeção, não parecem existir valores nulos ou vazios nas colunas de dados. Todos os IDs parecem ter respostas para todas as questões.
+
+Nota: A análise se baseia na inspeção das primeiras 250 linhas. Pode haver variações sutis nos dados completos. A limpeza de espaços extras em categorias como "Fácil " seria recomendada antes da análise. 

@@ -1,0 +1,44 @@
+Análise para: csv_extraidos/Aceitação da tecnologia.csv
+------------------------------------
+Total de linhas: 705 (incluindo cabeçalho)
+
+Primeiras 5 linhas de dados (após o cabeçalho):
+ID,Eu aceitaria participar se ganhasse 10 pontos para trocar por produtos e serviços por utilizar o transporte público,Eu aceitaria pagar até 10 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público,Eu aceitaria pagar de 10 a 20 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público,Eu aceitaria pagar entre 150 e 200 reais mensais para ter viagens ilimitadas em um mês no transporte público,Eu aceitaria pagar entre 200 e 300 reais mensais para ter viagens ilimitadas em um mês no transporte público,Eu aceitaria pagar de 800 a 1000 reais por ano para ter viagens ilimitadas em um ano no transporte público,Eu aceitaria pagar entre 1000 e 1200 reais por ano para ter viagens ilimitadas em um ano no transporte público,Eu aceitaria receber até 50 centavos por quilômetro percorrido no transporte público ,Eu aceitaria receber até 5 reais a cada 20 quilômetros percorridos no transporte público ,Eu aceitaria viajar em horários fora de pico se recebesse até 1 real de desconto na passagem,Eu aceitaria viajar em horários fora de pico se recebesse até 2 reais de desconto na passagem
+1,Concordo totalmente,Concordo totalmente,Discordo,Concordo,Discordo,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente
+2,Concordo,Neutro,Neutro,Concordo totalmente,Discordo,Discordo,Discordo,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente
+3,Concordo,Concordo,Neutro,Concordo,Concordo,Neutro,Neutro,Neutro,Neutro,Neutro,Neutro
+4,Discordo,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Discordo,Concordo totalmente,Concordo totalmente,Concordo totalmente
+5,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente
+
+------------------------------------
+Informações das Colunas (baseado na inspeção das primeiras 250 linhas):
+
+Todas as colunas, exceto 'ID', são categóricas, representando o nível de concordância com diferentes propostas relacionadas a programas de recompensa e modelos de pagamento. A escala provável é do tipo Likert (ex: Concordo totalmente, Concordo, Neutro, Discordo, Discordo totalmente).
+
+1.  ID: Identificador numérico.
+    -   Nulos/Vazios: Não aparenta.
+
+As colunas subsequentes (11 colunas de questões) seguem um padrão de resposta em escala Likert:
+    Exemplos de nomes de colunas:
+    - "Eu aceitaria participar se ganhasse 10 pontos..."
+    - "Eu aceitaria pagar até 10 reais por dia..."
+    - "Eu aceitaria receber até 50 centavos por quilômetro..."
+    - "Eu aceitaria viajar em horários fora de pico se recebesse até 1 real de desconto..."
+
+    Para cada uma destas colunas de questões:
+    -   Tipo: Categórico (escala Likert).
+    -   Valores distintos observados: Concordo totalmente, Concordo, Neutro, Discordo, Discordo totalmente. Alguns valores podem ter espaços no final (ex: "Concordo ").
+    -   Nulos/Vazios: Não aparenta nas linhas inspecionadas.
+
+------------------------------------
+Resumo de Estatísticas Descritivas:
+
+-   Todas as colunas de questões são categóricas ordinais. A análise principal envolveria a distribuição de frequência das respostas para cada proposta.
+-   A coluna 'ID' é um identificador.
+
+------------------------------------
+Contagem de Valores Nulos/Vazios (estimativa):
+
+-   Com base na inspeção, não parecem existir valores nulos ou vazios nas colunas de dados. Cada ID parece ter respondido a todas as proposições.
+
+Nota: A análise se baseia na inspeção das primeiras 250 linhas. É importante notar a presença de espaços no final de algumas categorias de resposta (ex: "Concordo totalmente" vs "Concordo") que precisariam ser padronizados para uma análise precisa. Os nomes das colunas são longos e descritivos, o que é bom para entendimento, mas podem ser encurtados (codificados) para facilitar a modelagem estatística posteriormente. 

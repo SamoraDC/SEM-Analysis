@@ -1,0 +1,76 @@
+Objetivos das análises estatísticas
+
+1. Ajustar modelos SEM (Modelagem de equação estrutural) específicos para cada uma das seções do questionário, com o objetivo de:
+
+• Validar as estruturas fatoriais de cada bloco temático;
+
+• Avaliar relações causais entre os fatores latentes de cada dimensão;
+
+• Verificar a significância estatística das associações entre variáveis observadas e latentes.
+
+2. Modelar por SEM os seguintes blocos do questionário individualmente;
+
+• Qualidade percebida do serviço (Tabela 1) e seu impacto na satisfação geral;
+
+• Utilização do transporte (Tabela 2), relacionando posse de veículo e frequência de uso à
+
+escolha modal;
+
+• Percepção sobre recompensas (Tabela 3), com validação dos tipos de benefício valorizados;
+
+• Intenção de uso com recompensas (Tabela 4), modelando o impacto das recompensas na
+
+frequência de uso;
+
+• Disposição a participar e pagar (WTP) (Tabela 5), modelando os níveis de aceitação a diferentes
+
+formas de recompensa;
+
+• Experiência geral e recomendação do serviço (Tabela 6), com foco na relação com satisfação
+
+e recompensas.
+
+3. Ajustar um modelo SEM global integrando as variáveis das seções segmentadas com os seguintes
+
+objetivos:
+
+• Avaliar a influência da percepção das recompensas na intenção de uso e recomendação do
+
+serviço;
+
+• Estimar o impacto da disposição a pagar (WTP) na intenção de uso do transporte público;
+
+• Verificar o papel da experiência geral como mediador entre percepção de qualidade e
+
+recomendação;
+
+• Incluir variáveis sociodemográficas como moderadoras ou covariáveis explicativas no
+
+modelo global.
+
+4. Apresentar os resultados de cada modelo SEM com:
+
+• Cargas fatoriais dos indicadores para cada fator latente;
+
+• Coeficientes padronizados das relações causais;
+
+• Significância estatística (valores-p);
+
+• Índices de ajuste dos modelos (CFI, TLI, RMSEA, SRMR).
+
+5. Apresentar resultados em tabelas apropriadas;
+
+6. Apresentar gráficos para demonstrar as diferenças significativas.
+
+Linha do Tempo para Execução
+
+1. Escrita do método de análise dos dados
+
+2. Adequação do banco de dados para análise
+
+3. Estatísticas descritivas
+
+4. Estatísticas analíticas
+
+5. Interpretação dos resultados em escrita científica
+

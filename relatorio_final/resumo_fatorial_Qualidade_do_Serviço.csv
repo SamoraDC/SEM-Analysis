@@ -1,0 +1,13 @@
+,Fator,Carga
+"Informação de linhas, horários e itinerários  ",Fator 1,0.9307205775500734
+Facilidade de entrada e saída dos veículos e/ou estações e pontos de ônibus  ,Fator 1,0.9291930703242062
+Locais atendidos pelo transporte público ,Fator 1,0.913086741300514
+Temperatura interna ,Fator 1,0.8989004041497322
+Limpeza dentro do veículo e nos pontos de ônibus e estações,Fator 1,0.8325469868960209
+Espaço disponível é suficiente para os passageiros sentados ou em pé,Fator 1,0.7941094495975657
+Preço da passagem,Fator 2,0.8416493414449733
+Velocidade dos veículos  ,Fator 2,0.8403036333663385
+Segurança dentro dos veículos e nos pontos de ônibus/estações ,Fator 2,0.8224651440203042
+Tempo total de viagem  ,Fator 2,0.7947704624458654
+Frequência com que os veículos passam ao longo dia ,Fator 2,0.7255576150006652
+Confiabilidade nos horários ,Fator 2,0.6244666939785378

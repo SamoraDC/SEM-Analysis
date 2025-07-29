@@ -1,0 +1,8 @@
+
+    # Fatores latentes
+    Satisfação =~ "Eu estou satisfeito com o serviço entregue pelo transporte público" + "O serviço transporte público correspondem às minhas expectativas" + "Considero que as minhas necessidades de deslocamento estão sendo atendidos pelo transporte público"
+    Valor =~ "Considero que o transporte público tem um bom custo benefício" + "Considero que sou recompensado por usar o transporte público"
+    
+    # Modelo estrutural
+    Experiência_Geral =~ Satisfação + Valor
+    

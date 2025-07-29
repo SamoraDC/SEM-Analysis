@@ -1,0 +1,352 @@
+Escopo de Projeto: Análise da Demanda por Transporte Público e Influência de Recompensas
+
+1. Introdução
+
+Este projeto tem como objetivo investigar a relação entre atributos do transporte público, perfil socioeconômico dos usuários e a influência de recompensas no comportamento de utilização. A pesquisa se baseia em dados estruturados em diferentes tabelas, cada uma abordando aspectos específicos como qualidade do serviço, utilização, percepção de novos serviços e perfil socioeconômico dos usuários.
+
+2. Estrutura dos Dados e Objetivos
+
+Os dados foram organizados em 7 tabelas, cada uma com um conjunto de variáveis. Os objetivos associados a cada tabela são descritos a seguir.
+
+Tabela 1: Qualidade do Serviço
+
+Objetivo: Explorar a satisfação dos usuários com atributos específicos do transporte público e seu impacto 
+Perguntas de pesquisa:
+1. Quais atributos têm maior impacto na satisfação geral?
+2. A satisfação com atributos específicos influencia diretamente a lealdade?
+
+Questão 1 - Como você avalia a qualidade dos serviços do Transporte Público nos seguintes atributos? 
+
+Acessibilidade 
+
+Atendimento 
+
+Conforto 
+
+Custo 
+
+Frequência 
+
+Informação 
+
+Limpeza 
+
+Pontualidade 
+
+Segurança 
+
+Temperatura 
+
+Tempo 
+
+Velocidade 
+
+(teoria explorar a satisfação dos usuários perante os atributos)
+
+Use SEM para avaliar como diferentes dimensões de qualidade contribuem para a satisfação geral.
+
+Inclua fatores latentes, como "Satisfação Geral" e "Qualidade Percebida do Serviço".
+
+Tabela 2: Utilização
+
+Objetivo: Analisar como características individuais (e.g., posse de veículo, frequência de uso) influenciam o comportamento.
+Perguntas de pesquisa:
+1. A posse de veículo próprio e carteira de motorista impacta negativamente o uso do transporte público?
+
+2. Há diferenças na frequência e nos motivos de uso?
+
+Questão 2 - Qual a forma que você faz a maioria das viagens? 
+
+Utilizo carro 
+
+Utilizo moto 
+
+Utilizo o transporte público (ônibus, trem, etc) 
+
+Faço viagens usando aplicativos (uber,99taxis, outros) 
+
+Me desloco a pé ou usando bicicleta 
+
+Questão 3 - Você tem carteira de motorista?
+
+Não tenho
+
+Sim, de carro
+
+Sim, de moto
+
+Sim, de caminhões
+
+Sim, de ônibus e vans
+
+Sim, de uma ou mais categorias
+
+(Ideia: Como ter ou não carteira influencia no tipo de transporte utilizado)
+
+Questão 4 - Você tem veículo próprio?
+
+Tenho
+
+Não tenho
+
+(teoria como ter ou não carteira e veiculo próprio influencia no tipo de transporte utilizado, explorando a demanda e sua relação por tipo de veículo) 
+
+Questão 5 - Você costuma usar o transporte público em quais dias?
+
+Em dias uteis
+
+Aos sábados
+
+Aos sábados
+
+Em feriados
+
+Questão 6 - Como você define sua frequência de uso do transporte público?
+
+Não utilizo o transporte público
+
+Uso menos de uma vez por semana
+
+Uso uma ou duas vezes por semana
+
+Uso três a quatro vezes por semana
+
+Uso cinco ou mais vezes por semana
+
+Questão 7 - Quantas passagens você usa por dia em suas viagens no transporte público?
+
+Não utilizo o transporte público
+
+Uma passagem por dia
+
+Duas passagens por dia
+
+Três passagens por dia
+
+Quatro passagens ou mais
+
+Questão 8 - Qual o meio de pagamento você utiliza para pagar pelo transporte?
+
+Dinheiro
+
+Cartão de transporte
+
+Vale transporte
+
+QR code
+
+Cartão de crédito
+
+Gratuidade
+
+Questão 9 - Qual a principal razão dos seus deslocamentos diários?
+
+Trabalho
+
+Estudo
+
+Lazer
+
+Compras
+
+Outros
+
+Questão 10- Quanto tempo você gasta por dia com transporte?
+
+Até 30 minutos
+
+Entre 30 minutos e 1 hora
+
+Entre 1 hora e 2 horas
+
+Entre 2 horas e 3 horas
+
+Entre 3 horas e 4 horas
+
+Mais de 4 horas por dia
+
+(teoria relacionar a frequência por semana, quantidade de passagens e dias e tempo gasto influenciam no quão leal o usuário é ao transporte público)
+
+Questão 11- Qual a principal razão pela qual você preferiria utilizar outro meio de transporte ao invés do transporte público?
+
+Gastar menos que com transporte público
+
+Comodidade pra ir a qualquer lugar a qualquer momento
+
+Me sentir mais seguro
+
+Por ser mais confortável
+
+Levar menos tempo
+
+Quero ter um veículo próprio
+
+(teoria analisar a influência do método de pagamento a motivação do deslocamento)
+
+captar a heterogeneidade nas escolhas de transporte com base em atributos individuais.
+
+SEM para explorar relações causais entre posse de veículo, frequência de uso e escolha modal.
+
+Tabela 3: Percepção 
+
+Objetivo: Identificar quais recompensas são mais valorizadas pelos usuários e seu potencial de atrair novos usuários.
+Perguntas de pesquisa:
+1. Quais recompensas são mais valorizadas?
+2. Recompensas têm maior potencial de atrair usuários?
+
+Questão 12- Qual a sua percepção sobre os seguintes temas?
+
+Eu gostaria de ganhar pontos ou créditos para trocar por produtos e serviços
+
+Eu gostaria de poder usar qualquer veículo do transporte público de forma ilimitada
+
+Eu gostaria de poder realizar uma compra antecipada por passagens ilimitadas no transporte público (pré-pago)
+
+Eu gostaria de ter a opção de pagar um valor diário por passagens ilimitadas no transporte público
+
+Eu gostaria de ter a opção de pagar um valor mensal por passagens ilimitadas no transporte público
+
+Eu gostaria de ter a opção de pagar um valor anual por passagens ilimitadas no transporte público
+
+Eu gostaria de receber um valor de volta por quilômetro viajado no transporte público
+
+Eu gostaria de receber desconto na passagem por viajar em horários fora de pico
+
+Análises sugeridas:
+
+SEM para modelar a relação entre percepção de recompensas e intenção de uso do transporte público.
+
+Análise fatorial confirmatória para validar clusters de preferências.
+
+Tabela 4: Intenção comportamental (Influência das Recompensas)
+
+Objetivo: Avaliar se recompensas aumentariam a frequência de uso e se há diferenças significativas entre perfis de usuários.
+Perguntas de pesquisa:
+1. As recompensas aumentariam a frequência de uso?
+2. Há diferenças na aceitação de recompensas entre perfis?
+
+Questão 13- Você consideraria utilizar mais o transporte público se recebesse alguma dessas recompensas?
+
+Eu usaria mais o transporte público se ganhasse pontos para trocar por produtos e serviços
+
+Se eu pudesse pagar por dia para ter passagens ilimitadas, usaria mais transporte público
+
+Se eu pudesse pagar por mês para ter passagens ilimitadas, usaria mais transporte público
+
+Se eu pudesse pagar por ano para ter passagens ilimitadas, usaria mais transporte público
+
+Se eu recebesse um valor em troca por quilometro viajado, usaria mais o transporte público
+
+Se ganhasse desconto na passagem por viajar em horários fora de pico, usaria mais o transporte público
+
+Análises sugeridas: SEM para explorar a relação entre recompensas percebidas, frequência de uso e lealdade.
+
+Avaliar a disposição a aceitar diferentes tipos de recompensas.
+
+Tabela 5: Disposição a Participar
+
+Objetivo: Investigar a disposição a pagar dos usuários e o impacto de RECOMPENSAS nas decisões.
+Perguntas de pesquisa:
+1. Qual é a disposição máxima a pagar (WTP) dos usuários?
+2. Qual desconto mínimo atrairia mais usuários?
+
+Questão 15- Você aceitaria participar de algum desses programas de recompensas para utilizar mais o transporte público?
+
+Eu aceitaria participar se ganhasse 10 pontos para trocar por produtos e serviços por utilizar o transporte público
+
+Eu aceitaria pagar até 10 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público
+
+Eu aceitaria pagar de 10 a 20 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público
+
+Eu aceitaria pagar entre 150 e 200 reais mensais para ter viagens ilimitadas em um mês no transporte público
+
+Eu aceitaria pagar entre 200 e 300 reais mensais para ter viagens ilimitadas em um mês no transporte público
+
+Eu aceitaria pagar de 800 a 1000 reais por ano para ter viagens ilimitadas em um ano no transporte público
+
+Eu aceitaria pagar entre 1000 e 1200 reais por ano para ter viagens ilimitadas em um ano no transporte público
+
+Eu aceitaria receber até 50 centavos por quilômetro percorrido no transporte público
+
+Eu aceitaria receber até 5 reais a cada 20 quilômetros percorridos no transporte público
+
+Eu aceitaria viajar em horários fora de pico se recebesse até 1 real de desconto na passagem
+
+Eu aceitaria viajar em horários fora de pico se recebesse até 2 reais de desconto na passagem
+
+Análises sugeridas:
+
+Mixed Logit para modelar a disposição a pagar com base em perfis de usuários.
+
+Análise de sensibilidade para testar cenários de diferentes valores de recompensas.
+
+(teoria para a 4, 5 e 6: analisar a percepção em relação a possíveis novos serviços ou melhorias no transporte público, como a implementação de novos serviços, a introdução de novas tecnologias e/ou a oferta de serviços complementares e qual benefício financeiro e social que recompensas podem gerar além investigando a disposição dos participantes em adotar novas tecnologias relacionadas ao transporte público, ou seja, a disposição de usar tal serviço conforme a variação do benefício recebido)
+
+Tabela 6 – Experiencia do usuário 
+
+Questão16: Como você avalia sua experiência no geral com transporte público?
+
+Eu estou satisfeito com o serviço entregue pelo transporte público
+
+O serviço transporte público correspondem às minhas expectativas
+
+Considero que as minhas necessidades de deslocamento estão sendo atendidos pelo transporte público
+
+Considero que o transporte público tem um bom custo benefício
+
+Considero que sou recompensado por usar o transporte público
+
+Questão 17: Como você avalia a facilidade de uso dos meios de pagamento do transporte público?
+
+Cartões
+
+Aplicativos de celular
+
+Qr Code
+
+Bilhete impresso
+
+Questão 14: Você recomendaria o transporte público se recebesse alguma dessas recompensas? 
+
+Eu recomendaria a amigos familiares e colegas, se eu ganhasse passagens ou pontos para trocar por produtos e serviços
+
+Eu recomendaria a amigos familiares e colegas, se eu tivesse passagens ilimitadas no transporte público 
+
+Eu recomendaria a amigos familiares e colegas o transporte público, se eu recebesse um valor de volta por quilometro viajado 
+
+Eu recomendaria a amigos familiares e colegas o transporte público, se eu ganhasse desconto na passagem por viajar em horários fora de pico
+
+(teoria Experiência do Usuário analisar como o usuário avalia sua experiência com o transporte público facilidade de usar os meios de transporte e recomendação do serviço se recebesse recompensas)
+
+Tabela 7: Perfil Socioeconômico
+
+Objetivo: Realizar recortes de perfil socioeconômico para identificar padrões e segmentações.
+Perguntas de pesquisa:
+1. Como o perfil socioeconômico influencia o comportamento de uso do transporte público?
+2. Há diferenças significativas entre grupos (e.g., por faixa etária, gênero, renda)?
+
+Modelo SEM: Construa modelos com fatores latentes (e.g., "Qualidade Percebida", "Experiência Geral").
+
+Avalie a influência de mediadores (e.g., satisfação -> lealdade).
+
+Capte a heterogeneidade nas preferências individuais por diferentes atributos.
+
+Modele escolhas discretas (e.g., tipo de transporte, aceitação de recompensas).
+
+Interação entre Métodos: Use resultados do SEM para informar o Mixed Logit (e.g., pesos atribuídos à qualidade do serviço).
+
+Combine análises qualitativas (comentários abertos) para enriquecer a interpretação dos modelos. Integração com Análises SEM 
+
+SEM: Inclua variáveis socioeconômicas como covariáveis ou moderadoras no modelo.
+
+Mixed Logit: Introduza características socioeconômicas como variáveis explicativas para modelar as preferências individuais.
+
+3. Metodologia
+
+3.1 Modelos de Equações Estruturais (SEM)
+
+O SEM será usado para avaliar relações causais e fatores latentes, como 'Satisfação Geral' e 'Qualidade Percebida'. Este método permitirá explorar como diferentes variáveis influenciam a lealdade e o uso do transporte público.
+
+3.2 Recortes Socioeconômicos
+
+Recortes baseados na Tabela 7 permitirão identificar padrões específicos para cada segmento de usuários, como faixas etárias, níveis de renda e ocupações.

@@ -1,0 +1,7 @@
+coluna,mediana,media,percentil_25,percentil_50,percentil_75,percentil_90,percentil_95,prop_até_1.00,prop_concordância_forte,prop_concordância,prop_discordância
+Eu aceitaria receber até 50 centavos por quilômetro percorrido no transporte público ,1.0,1.1735419630156472,1.0,1.0,1.0,1.0,3.0,90.46941678520626,,,
+Eu aceitaria receber até 5 reais a cada 20 quilômetros percorridos no transporte público ,1.0,1.1650071123755334,1.0,1.0,1.0,1.0,3.0,90.89615931721194,,,
+Eu gostaria de receber um valor de volta por quilômetro viajado no transporte público ,5.0,4.691322901849218,5.0,5.0,5.0,5.0,5.0,,91.74964438122333,94.87908961593172,5.120910384068279
+Eu gostaria de receber um valor de volta por quilômetro viajado no transporte público _bdtp,5.0,4.692745376955903,5.0,5.0,5.0,5.0,5.0,,91.74964438122333,94.87908961593172,5.120910384068279
+Eu aceitaria receber até 50 centavos por quilômetro percorrido no transporte público _bdtp,1.0,1.1749644381223328,1.0,1.0,1.0,1.0,3.0,90.46941678520626,,,
+Eu aceitaria receber até 5 reais a cada 20 quilômetros percorridos no transporte público _bdtp,1.0,1.1607396870554765,1.0,1.0,1.0,1.0,3.0,91.03840682788051,,,

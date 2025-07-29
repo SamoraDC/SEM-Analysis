@@ -1,0 +1,44 @@
+Análise para: csv_extraidos/Percepção novos serviços.csv
+------------------------------------
+Total de linhas: 705 (incluindo cabeçalho)
+
+Primeiras 5 linhas de dados (após o cabeçalho):
+ID,Eu gostaria de ganhar pontos ou créditos para trocar por produtos e serviços,Eu gostaria de poder usar qualquer veículo do transporte público de forma ilimitada,Eu gostaria de poder realizar uma compra antecipada por passagens ilimitadas no transporte público (pré-pago),Eu gostaria de poder realizar um pagamento depois de usar passagens ilimitadas no transporte público (pós-pago),Eu gostaria de ter a opção de pagar um valor diário por passagens ilimitadas no transporte público,Eu gostaria de ter a opção de pagar um valor mensal por passagens ilimitadas no transporte público,Eu gostaria de ter a opção de pagar um valor anual por passagens ilimitadas no transporte público,Eu gostaria de receber um valor de volta por quilômetro viajado no transporte público ,Eu gostaria de receber desconto na passagem por viajar em horários fora de pico
+1,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente
+2,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo totalmente
+3,Concordo totalmente,Concordo,Concordo,Concordo,Concordo totalmente,Concordo totalmente,Concordo totalmente,Concordo,Concordo totalmente
+4,Neutro,Concordo totalmente,Discordo totalmente,Concordo,Concordo totalmente,Concordo totalmente,Concordo totalmente,Discordo,Concordo totalmente
+5,Discordo totalmente,Discordo totalmente,Discordo totalmente,Discordo totalmente,Concordo,Concordo totalmente,Neutro,Discordo,Concordo totalmente
+
+------------------------------------
+Informações das Colunas (baseado na inspeção das primeiras 250 linhas):
+
+Todas as colunas, exceto 'ID', são categóricas, indicando o grau de concordância dos usuários com diversas propostas de novos serviços ou modelos de recompensa/pagamento no transporte público. Utiliza-se uma escala do tipo Likert.
+
+1.  ID: Identificador numérico.
+    -   Nulos/Vazios: Não aparenta.
+
+As colunas subsequentes (9 colunas de questões) seguem um padrão de resposta em escala Likert:
+    Exemplos de nomes de colunas:
+    - "Eu gostaria de ganhar pontos ou créditos para trocar por produtos e serviços"
+    - "Eu gostaria de poder usar qualquer veículo do transporte público de forma ilimitada"
+    - "Eu gostaria de ter a opção de pagar um valor diário por passagens ilimitadas..."
+    - "Eu gostaria de receber um valor de volta por quilômetro viajado..."
+
+    Para cada uma destas colunas de questões:
+    -   Tipo: Categórico (escala Likert).
+    -   Valores distintos observados: Concordo totalmente, Concordo, Neutro, Discordo, Discordo totalmente. Alguns valores podem ter espaços no final.
+    -   Nulos/Vazios: Não aparenta nas linhas inspecionadas.
+
+------------------------------------
+Resumo de Estatísticas Descritivas:
+
+-   Todas as colunas de questões são categóricas ordinais. A análise principal envolveria a distribuição de frequência das respostas para cada proposta de novo serviço/recompensa.
+-   A coluna 'ID' é um identificador.
+
+------------------------------------
+Contagem de Valores Nulos/Vazios (estimativa):
+
+-   Com base na inspeção, não parecem existir valores nulos ou vazios nas colunas de dados.
+
+Nota: A análise se baseia na inspeção das primeiras 250 linhas. A padronização de categorias de resposta (removendo espaços extras) e a possível codificação dos longos nomes das colunas seriam passos importantes para análises futuras. 

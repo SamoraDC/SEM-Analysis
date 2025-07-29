@@ -1,0 +1,9 @@
+,Preço da passagem,Espaço disponível é suficiente para os passageiros sentados ou em pé,Temperatura interna ,Tempo total de viagem  ,Frequência com que os veículos passam ao longo dia ,Velocidade dos veículos  ,Segurança dentro dos veículos e nos pontos de ônibus/estações ,"Informação de linhas, horários e itinerários  ",Locais atendidos pelo transporte público ,Confiabilidade nos horários ,Facilidade de entrada e saída dos veículos e/ou estações e pontos de ônibus  ,Limpeza dentro do veículo e nos pontos de ônibus e estações
+count,703.0,703.0,703.0,703.0,703.0,703.0,703.0,703.0,703.0,703.0,703.0,703.0
+mean,1.1863442389758179,1.7155049786628733,1.9772403982930298,1.2517780938833571,1.3769559032716927,1.3456614509246088,1.2304409672830725,2.2290184921763867,2.0839260312944523,1.4423897581792318,2.120910384068279,1.8349928876244666
+std,0.5605615122054413,1.3091291312319555,1.4654792427009349,0.688152981673483,0.8192021391429316,0.7744166699319864,0.6737535323579944,1.6854192976999112,1.5368449032446634,0.9163105642473875,1.5719780022429997,1.3305843322358442
+min,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+25%,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+50%,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+75%,1.0,2.0,3.0,1.0,1.0,1.0,1.0,4.0,4.0,2.0,4.0,2.0
+max,4.0,5.0,5.0,5.0,5.0,4.0,5.0,5.0,5.0,5.0,5.0,5.0

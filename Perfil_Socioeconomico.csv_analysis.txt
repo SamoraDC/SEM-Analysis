@@ -1,0 +1,73 @@
+Análise para: csv_extraidos/Perfil Socioeconomico.csv
+------------------------------------
+Total de linhas: 706 (incluindo cabeçalho)
+
+Primeiras 5 linhas de dados (após o cabeçalho):
+ID,Gênero ,Raça,Idade,"Nível de escolaridade\n",Situação Profissional ,"Possui filhos?  (Insira o número, no caso de não possuir colocar o número zero)",Renda,Muito obrigado por fazer parte da nossa pesquisa utilize este espaço para deixar seus comentários e sugestões 
+1,Masculino,Branca,25–49,Graduação (completo ou incompleto),Estudante,0,Até 1 salário mínimo: R$ 1.302,
+2,Feminino,Negra ( pretos e pardos),18–24,Graduação (completo ou incompleto),Empregado (carteira assinada ou autônomo),1,De 1 a 2 salários mínimos: R$ 1.302 a R$ 2.604,
+3,Masculino,Negra ( pretos e pardos),25–49,Graduação (completo ou incompleto),Empregado (carteira assinada ou autônomo),1,De 3 a 5 salários mínimos: R$ 3.906 a R$ 6.510,Ótima pesquisa parabéns pela iniciativa 
+4,Masculino,Branca,25–49,Graduação (completo ou incompleto),Aposentado,2,De 2 a 3 salários mínimos: R$ 2.604 a R$ 3.906,
+5,Masculino,Negra ( pretos e pardos),25–49,Graduação (completo ou incompleto),Empregado (carteira assinada ou autônomo),0,De 3 a 5 salários mínimos: R$ 3.906 a R$ 6.510,
+
+------------------------------------
+Informações das Colunas (baseado na inspeção das primeiras 250 linhas):
+
+1. ID: Parece ser um identificador numérico sequencial.
+   - Valores distintos: Provavelmente 705 (se único por linha de dados).
+   - Nulos/Vazios: Não aparenta ter nas primeiras linhas.
+
+2. Gênero : Categórico (ex: Masculino, Feminino, Outro).
+   - Valores distintos: Pelo menos 3 (Masculino, Feminino, Outro - visto na linha 75).
+   - Nulos/Vazios: Não aparenta ter nas primeiras linhas.
+
+3. Raça: Categórico (ex: Branca, Negra (pretos e pardos), Amarela, Indígena).
+   - Valores distintos: Pelo menos 4 (vistos nas amostras).
+   - Nulos/Vazios: Não aparenta ter nas primeiras linhas.
+
+4. Idade: Categórico, faixas etárias (ex: 25–49, 18–24, 65 ou mais, Menor que 18). Algumas entradas podem ter "anos" (ex: "25-49 anos").
+   - Valores distintos: Múltiplas faixas.
+   - Nulos/Vazios: Não aparenta ter nas primeiras linhas.
+
+5. "Nível de escolaridade\n": Categórico (ex: Graduação (completo ou incompleto), Pós-graduação..., Ensino Médio...). O nome da coluna tem um `\n`.
+   - Valores distintos: Múltiplos níveis.
+   - Nulos/Vazios: Não aparenta ter nas primeiras linhas.
+
+6. Situação Profissional : Categórico (ex: Estudante, Empregado..., Aposentado, Motorista de Aplicativo, Desempregado).
+   - Valores distintos: Múltiplas situações.
+   - Nulos/Vazios: Não aparenta ter nas primeiras linhas.
+
+7. "Possui filhos?  (Insira o número, no caso de não possuir colocar o número zero)": Numérico (representando contagem de filhos).
+   - Valores distintos: Varia (0, 1, 2, 3, 4+).
+   - Tipo provável: Inteiro.
+   - Nulos/Vazios: Não aparenta ter nas primeiras linhas.
+
+8. Renda: Categórico, faixas de renda (ex: Até 1 salário mínimo: R$ 1.302, De 1 a 2 salários mínimos...). Algumas entradas "Não possuo renda".
+   - Valores distintos: Múltiplas faixas.
+   - Nulos/Vazios: Não aparenta ter nas primeiras linhas (mas "Não possuo renda" é uma categoria).
+
+9. Muito obrigado por fazer parte da nossa pesquisa utilize este espaço para deixar seus comentários e sugestões : Texto livre. Muitas entradas estão vazias.
+   - Valores distintos: Alto número, muitos únicos ou vazios.
+   - Nulos/Vazios: Muitos campos parecem vazios (representando ausência de comentário).
+
+------------------------------------
+Resumo de Estatísticas Descritivas (aproximado pela natureza dos dados categóricos):
+
+- A maioria das colunas é categórica, representando grupos ou faixas.
+- 'ID' e 'Possui filhos?' são as colunas mais diretamente numéricas. Para 'Possui filhos?', poderíamos calcular média, mediana, min, max se tivéssemos todos os dados e os convertêssemos.
+- A coluna de comentários ('Muito obrigado por...') terá muitos valores vazios ou únicos.
+
+------------------------------------
+Contagem de Valores Nulos/Vazios (estimativa baseada na inspeção e natureza das colunas):
+
+- ID: Provavelmente 0.
+- Gênero : Provavelmente 0.
+- Raça: Provavelmente 0.
+- Idade: Provavelmente 0.
+- "Nível de escolaridade\n": Provavelmente 0.
+- Situação Profissional : Provavelmente 0.
+- "Possui filhos? ...": Provavelmente 0 (assumindo que 0 foi preenchido para quem não tem).
+- Renda: Provavelmente 0 (assumindo que "Não possuo renda" é uma categoria preenchida).
+- "Muito obrigado por ...": Alto número de linhas onde este campo está vazio (não preenchido com texto). Isso representa a maioria das linhas.
+
+Nota: Esta análise é baseada na inspeção manual do conteúdo do arquivo. Uma análise mais precisa com `pandas` permitiria quantificar exatamente os nulos, os tipos de dados corretos e estatísticas detalhadas para colunas numéricas. O nome da coluna "Nível de escolaridade\n" possui um caractere de nova linha que pode precisar de tratamento. Alguns campos como 'Idade' e 'Renda' são faixas e exigiriam processamento para análise numérica. 

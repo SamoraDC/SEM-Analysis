@@ -1,0 +1,43 @@
+Análise para: csv_extraidos/BDTP.csv
+------------------------------------
+Total de linhas: 709 (incluindo cabeçalho)
+
+Primeiras linhas de dados (amostra do cabeçalho e primeira linha):
+ID,Preço da passagem,...,Qr Code,Bilhete impresso,Gênero ,Raça,Idade,"Nível de escolaridade\n",Situação Profissional ,"Possui filhos? ...",Renda
+1,Insatisfeito,...,Muito difícil,Muito difícil,Masculino,Branca,25–49,Graduação (completo ou incompleto),Estudante,0,Até 1 salário mínimo:  R$ 1.302
+
+------------------------------------
+Informações das Colunas (baseado na inspeção e estrutura):
+
+Este arquivo parece ser a base de dados consolidada, juntando todas as colunas dos arquivos CSV individuais, com base no ID do respondente. Contém aproximadamente 65 colunas (ID + 64 questões/variáveis).
+
+A estrutura geral das colunas é:
+1.  ID: Identificador numérico (1 coluna).
+2.  Bloco Qualidade do Serviço: Avaliação de satisfação com atributos (escala Likert: Muito Insatisfeito a Muito Satisfeito) (12 colunas).
+3.  Bloco Utilização: Hábitos de uso, posse de veículo/carteira, frequência, motivo, tempo, preferência alternativa (categóricas diversas) (10 colunas).
+4.  Bloco Percepção Novos Serviços: Interesse em novos modelos (pontos, passes ilimitados, cashback, desconto fora-pico) (escala Likert: Discordo Totalmente a Concordo Totalmente) (9 colunas).
+5.  Bloco Intenção Comportamental: Intenção de usar mais/recomendar sob condições de recompensa (escala Likert) (10 colunas).
+6.  Bloco Aceitação da Tecnologia (Disposição a Pagar/Participar): Aceitação de programas específicos com valores/pontos definidos (escala Likert) (11 colunas).
+7.  Bloco Experiência do Usuário: Satisfação geral, expectativas, custo-benefício, recompensa percebida, facilidade de meios de pagamento (escala Likert + escala de Facilidade) (10 colunas - parece que as 4 perguntas de recomendação do bloco Intenção Comportamental foram repetidas aqui, ou há uma sobreposição).
+8.  Bloco Perfil Socioeconômico: Gênero, Raça, Idade, Escolaridade, Situação Profissional, Filhos, Renda (categóricas e uma numérica) (8 colunas, excluindo a coluna de comentários que não parece estar neste consolidado).
+
+Tipos de Dados:
+-   Predominantemente Categóricos (escalas Likert, nominais, ordinais).
+-   Numéricos: 'ID', 'Possui filhos?'.
+
+Nomes das Colunas:
+-   Muitos nomes são longos e descritivos.
+-   Alguns contêm caracteres de nova linha (`\n`) ou espaços extras no final.
+
+------------------------------------
+Resumo de Estatísticas Descritivas:
+
+-   Sendo a base consolidada, permite análises cruzadas entre todos os blocos temáticos.
+-   A análise se concentrará em distribuições de frequência, tabulações cruzadas e, posteriormente, modelagem (SEM, Logit) conforme o escopo.
+
+------------------------------------
+Contagem de Valores Nulos/Vazios (estimativa):
+
+-   Com base na inspeção dos arquivos individuais, a maioria das colunas não parece ter valores nulos, exceto talvez por alguma inconsistência na junção ou respostas não obrigatórias. A coluna de comentários do perfil socioeconômico, que tinha muitos vazios, não parece estar presente aqui. A coluna `Locais atendidos pelo transporte público` (do bloco Qualidade) parece ter um valor vazio na linha 48 da amostra lida. Será necessário verificar a completude dos dados na análise detalhada.
+
+Nota: Esta análise é baseada na inspeção das primeiras linhas. A confirmação da estrutura, a limpeza dos nomes das colunas e das categorias de resposta são essenciais antes de prosseguir com as análises estatísticas mais complexas. A presença da coluna 48 (`Locais atendidos...`) vazia na linha 48 sugere a necessidade de verificar dados faltantes. O número de linhas (709) é ligeiramente diferente dos outros arquivos (705-708), o que também precisa ser investigado (pode ser uma linha extra de cabeçalho/rodapé ou IDs extras/faltantes). 

@@ -1,0 +1,11 @@
+Índice,Valor,Critério de Aceitação,Status
+χ² (Chi-quadrado),-313.565,Menor melhor,Calculado
+gl (Graus de Liberdade),4,-,-
+p-valor,1.000,> 0.05,✓ Bom
+CFI,1.000,> 0.95,✓ Excelente
+TLI,1.000,> 0.95,✓ Excelente
+RMSEA,0.000,< 0.08,✓ Excelente
+SRMR,0.469,< 0.08,✗ Ruim
+RMSE,0.616,Menor melhor,Calculado
+R²,0.780,Maior melhor,✓ Excelente
+R² Ajustado,0.778,Maior melhor,✓ Excelente

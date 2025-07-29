@@ -1,0 +1,9 @@
+
+    # Fatores latentes
+    Pontos_Créditos =~ "Eu gostaria de ganhar pontos ou créditos para trocar por produtos e serviços"
+    Uso_Ilimitado =~ "Eu gostaria de poder usar qualquer veículo do transporte público de forma ilimitada" + "Eu gostaria de poder realizar uma compra antecipada por passagens ilimitadas no transporte público (pré-pago)" + "Eu gostaria de ter a opção de pagar um valor diário por passagens ilimitadas no transporte público" + "Eu gostaria de ter a opção de pagar um valor mensal por passagens ilimitadas no transporte público" + "Eu gostaria de ter a opção de pagar um valor anual por passagens ilimitadas no transporte público"
+    Recompensa_Financeira =~ "Eu gostaria de receber um valor de volta por quilômetro viajado no transporte público" + "Eu gostaria de receber desconto na passagem por viajar em horários fora de pico"
+    
+    # Modelo estrutural
+    Percepção_Recompensas =~ Pontos_Créditos + Uso_Ilimitado + Recompensa_Financeira
+    

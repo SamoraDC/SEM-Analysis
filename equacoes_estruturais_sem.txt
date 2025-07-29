@@ -1,0 +1,25 @@
+EQUAÇÕES ESTRUTURAIS - MODELO SEM
+==================================================
+
+EQUAÇÃO 1 - PERCEPÇÃO DE RECOMPENSAS:
+Percepção_Recompensas = 3.759 + 0.057×Qualidade_Percebida + 0.244×Aceitação_Tecnológica + -0.214×Experiência_Usuário + ε₁
+
+R² = 0.066
+
+EQUAÇÃO 2 - INTENÇÃO COMPORTAMENTAL:
+Intenção_Comportamental = 0.061 + -0.003×Qualidade_Percebida + 0.053×Aceitação_Tecnológica + -0.054×Experiência_Usuário + 0.942×Percepção_Recompensas + ε₂
+
+R² = 0.780
+
+EQUAÇÃO PRINCIPAL (MODELO PARCIMONIOSO):
+Intenção_Comportamental = 0.014 + 0.957×Percepção_Recompensas + ε₃
+
+R² = 0.778
+Correlação = 0.882
+
+INTERPRETAÇÃO DOS COEFICIENTES:
+------------------------------
+• O coeficiente mais forte é Percepção_Recompensas → Intenção (0.942)
+• Qualidade atual tem impacto limitado na intenção (-0.003)
+• Tecnologia facilita a percepção de recompensas (0.244)
+• O modelo explica 78.0% da variância na intenção

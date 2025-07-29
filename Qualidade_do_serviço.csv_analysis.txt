@@ -1,0 +1,52 @@
+Análise para: csv_extraidos/Qualidade do serviço.csv
+------------------------------------
+Total de linhas: 705 (incluindo cabeçalho)
+
+Primeiras 5 linhas de dados (após o cabeçalho):
+ID,Preço da passagem,Espaço disponível é suficiente para os passageiros sentados ou em pé,Temperatura interna ,Tempo total de viagem  ,Frequência com que os veículos passam ao longo dia ,Velocidade dos veículos  ,Segurança dentro dos veículos e nos pontos de ônibus/estações ,"Informação de linhas, horários e itinerários  ","Locais atendidos pelo transporte público ",Confiabilidade nos horários ,Facilidade de entrada e saída dos veículos e/ou estações e pontos de ônibus  ,Limpeza dentro do veículo e nos pontos de ônibus e estações
+1,Insatisfeito,Muito insatisfeito,Neutro,Muito insatisfeito,Satisfeito,Muito insatisfeito,Satisfeito,Satisfeito,Satisfeito,Insatisfeito,Satisfeito,Neutro
+2,Muito insatisfeito,Muito insatisfeito,Neutro,Muito insatisfeito,Muito insatisfeito,Muito insatisfeito,Insatisfeito,Satisfeito,Satisfeito,Insatisfeito,Muito satisfeito,Satisfeito
+3,Neutro,Satisfeito,Neutro,Insatisfeito,Neutro,Satisfeito,Neutro,Neutro,Neutro,Satisfeito,Neutro,Satisfeito
+4,Neutro,Insatisfeito,Satisfeito,Satisfeito,Satisfeito,Neutro,Insatisfeito,Muito satisfeito,Satisfeito,Muito satisfeito,Neutro,Neutro
+5,Muito insatisfeito,Muito insatisfeito,Muito insatisfeito,Muito insatisfeito,Muito insatisfeito,Muito insatisfeito,Muito insatisfeito,Muito insatisfeito,Muito insatisfeito,Muito insatisfeito,Muito insatisfeito,Muito insatisfeito
+
+------------------------------------
+Informações das Colunas (baseado na inspeção das primeiras 250 linhas):
+
+Todas as colunas, exceto 'ID', são categóricas, representando a avaliação da satisfação do usuário com diferentes atributos da qualidade do serviço de transporte público, usando uma escala Likert.
+
+1.  ID: Identificador numérico.
+    -   Nulos/Vazios: Não aparenta.
+
+As colunas subsequentes (12 colunas de atributos) seguem um padrão de resposta em escala Likert:
+    Exemplos de nomes de colunas:
+    - "Preço da passagem"
+    - "Espaço disponível é suficiente..."
+    - "Temperatura interna "
+    - "Tempo total de viagem  "
+    - "Frequência com que os veículos passam..."
+    - "Velocidade dos veículos  "
+    - "Segurança dentro dos veículos..."
+    - "Informação de linhas, horários..."
+    - "Locais atendidos pelo transporte público "
+    - "Confiabilidade nos horários "
+    - "Facilidade de entrada e saída..."
+    - "Limpeza dentro do veículo..."
+
+    Para cada uma destas colunas de atributos:
+    -   Tipo: Categórico (escala Likert/Satisfação).
+    -   Valores distintos observados: Muito satisfeito, Satisfeito, Neutro, Insatisfeito, Muito insatisfeito. Alguns nomes de colunas e valores podem ter espaços no final.
+    -   Nulos/Vazios: Não aparenta nas linhas inspecionadas.
+
+------------------------------------
+Resumo de Estatísticas Descritivas:
+
+-   Todas as colunas de atributos são categóricas ordinais. A análise se concentrará na distribuição das respostas de satisfação para cada atributo.
+-   A coluna 'ID' é um identificador.
+
+------------------------------------
+Contagem de Valores Nulos/Vazios (estimativa):
+
+-   Com base na inspeção, não parecem existir valores nulos ou vazios.
+
+Nota: A análise se baseia na inspeção das primeiras 250 linhas. A padronização de categorias de resposta e a limpeza dos nomes das colunas (removendo espaços extras) são recomendadas. 
