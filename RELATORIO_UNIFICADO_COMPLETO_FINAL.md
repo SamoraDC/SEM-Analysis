@@ -266,6 +266,24 @@ A decisão estratégica de iniciar com um modelo de 3 construtos foi motivada po
 ![Modelo SEM 3 Construtos](diagrama_sem_real.png)
 *Figura 4.1: Modelo SEM Original - 3 Construtos Principais*
 
+#### **Relações Estruturais e Coeficientes de Caminho do Modelo de 3 Construtos**
+
+As relações propostas entre os construtos e seus respectivos coeficientes de caminho (path coefficients) do modelo inicial são:
+
+* A **Percepção de Recompensas** exerce a influência positiva mais forte sobre a **Intenção Comportamental** (β = 0.896). Esta é identificada como a "Relação Principal" do modelo.
+* A **Qualidade Percebida** tem um efeito positivo e direto sobre a **Percepção de Recompensas** (β = 0.057).
+
+#### **Estatísticas Globais do Modelo de 3 Construtos**
+
+As estatísticas de ajuste global fornecem uma visão geral da qualidade do modelo inicial:
+
+* **Total de Construtos:** 3
+* **Total de Variáveis:** 31
+* **R²:** 0.847
+* **Correlação Principal:** 0.896
+
+O valor do **R² de 0.847** indica que 84.7% da variância na intenção comportamental é explicada pela percepção de recompensas, demonstrando um alto poder explanatório do modelo parcimonioso.
+
 **ESPECIFICAÇÃO DO MODELO DE 3 CONSTRUTOS:**
 
 | Construto                                   | Tipo       | Indicadores | Papel Teórico                    | Base Teórica                |
@@ -273,6 +291,54 @@ A decisão estratégica de iniciar com um modelo de 3 construtos foi motivada po
 | **Qualidade Percebida (ξ₁)**        | Exógena   | 12          | Avaliação do serviço atual     | TAM (Davis, 1989)            |
 | **Percepção de Recompensas (η₁)** | Mediadora  | 9           | Avaliação de incentivos futuros | TPB (Ajzen, 1991)            |
 | **Intenção Comportamental (η₂)**  | Dependente | 10          | Disposição para mudança        | TAR (Fishbein & Ajzen, 1975) |
+
+#### **TABELA DE CARGAS FATORIAIS - MODELO DE 3 CONSTRUTOS**
+
+**QUALIDADE PERCEBIDA (12 variáveis):**
+
+| Variável | Carga Fatorial | Interpretação |
+|----------|----------------|---------------|
+| Informação de linhas e horários | 0.85 | Forte |
+| Preço da passagem | 0.82 | Forte |
+| Locais atendidos | 0.79 | Moderada |
+| Espaço suficiente | 0.78 | Moderada |
+| Confiabilidade horários | 0.76 | Moderada |
+| Temperatura interna | 0.75 | Moderada |
+| Facilidade entrada/saída | 0.74 | Moderada |
+| Tempo de viagem | 0.73 | Moderada |
+| Limpeza | 0.72 | Moderada |
+| Frequência veículos | 0.71 | Moderada |
+| Velocidade | 0.69 | Fraca |
+| Segurança | 0.67 | Fraca |
+
+**PERCEPÇÃO DE RECOMPENSAS (9 variáveis):**
+
+| Variável | Carga Fatorial | Interpretação |
+|----------|----------------|---------------|
+| Uso ilimitado | 0.91 | Muito Forte |
+| Cashback por km | 0.89 | Forte |
+| Passe diário | 0.88 | Forte |
+| Pontos/créditos | 0.87 | Forte |
+| Desconto fora pico | 0.86 | Forte |
+| Passe mensal | 0.85 | Forte |
+| Pré-pago ilimitado | 0.84 | Forte |
+| Passe anual | 0.83 | Forte |
+| Pós-pago ilimitado | 0.82 | Forte |
+
+**INTENÇÃO COMPORTAMENTAL (10 variáveis):**
+
+| Variável | Carga Fatorial | Interpretação |
+|----------|----------------|---------------|
+| Usaria + com pontos | 0.92 | Muito Forte |
+| Usaria + cashback | 0.91 | Muito Forte |
+| Recomendaria cashback | 0.90 | Forte |
+| Usaria + passe diário | 0.89 | Forte |
+| Usaria + desconto | 0.88 | Forte |
+| Usaria + passe mensal | 0.87 | Forte |
+| Recomendaria desconto | 0.87 | Forte |
+| Recomendaria pontos | 0.86 | Forte |
+| Usaria + passe anual | 0.85 | Forte |
+| Recomendaria passe | 0.84 | Forte |
 
 **RESULTADOS ESTATÍSTICOS DO MODELO INICIAL:**
 
@@ -361,6 +427,84 @@ O modelo de 7 construtos foi selecionado como versão final após análise rigor
 | **ξ₅ - PERFIL_SOCIOECONOMICO**   | Exógena  | 8               | Gênero; Idade; Escolaridade; Renda; Etnia; Filhos                                         | Características demográficas             |
 | **η₁ - PERCEPCAO_RECOMPENSAS**   | Endógena | 9               | Pontos/créditos; Cashback; Descontos; Uso ilimitado; Benefícios                          | Avaliação de sistemas de incentivos      |
 | **η₂ - INTENCAO_COMPORTAMENTAL** | Endógena | 10              | Intenção de usar mais; Recomendação; Participação; Preferência future               | Disposição para mudanza comportamental   |
+
+#### **TABELA DE CARGAS FATORIAIS - MODELO DE 7 CONSTRUTOS**
+
+**RESUMO CONSOLIDADO DAS CARGAS FATORIAIS POR CONSTRUTO:**
+
+| Construto | Alfa de Cronbach | Variância Explicada | Carga Máxima | Carga Mínima | Qualidade Geral |
+|-----------|------------------|---------------------|--------------|--------------|-----------------|
+| **Percepção de Recompensas** | 0.963 | 0.866 | 0.91 | 0.82 | Excelente |
+| **Intenção Comportamental** | 0.975 | 0.843 | 0.92 | 0.84 | Excelente |
+| **Aceitação Tecnológica** | 0.91 | 0.65 | 0.81 | 0.70 | Muito Boa |
+| **Qualidade do Serviço** | 0.920 | 0.70 | 0.85 | 0.67 | Muito Boa |
+| **Experiência do Usuário** | 0.783 | 0.58 | 0.84 | 0.68 | Aceitável |
+| **Utilização Atual** | 0.82 | 0.61 | 0.83 | 0.68 | Boa |
+| **Perfil Socioeconômico** | 0.78 | 0.52 | 0.77 | 0.60 | Aceitável |
+
+**CARGAS FATORIAIS DETALHADAS POR CONSTRUTO:**
+
+**PERCEPÇÃO DE RECOMPENSAS (α = 0.963):**
+
+| Variável | Carga Fatorial | Interpretação |
+|----------|----------------|---------------|
+| Uso ilimitado | 0.91 | Muito Forte |
+| Cashback por km | 0.89 | Forte |
+| Passe diário | 0.88 | Forte |
+| Pontos/créditos | 0.87 | Forte |
+| Desconto fora pico | 0.86 | Forte |
+| Passe mensal | 0.85 | Forte |
+| Pré-pago ilimitado | 0.84 | Forte |
+| Passe anual | 0.83 | Forte |
+| Pós-pago ilimitado | 0.82 | Forte |
+
+**INTENÇÃO COMPORTAMENTAL (α = 0.975):**
+
+| Variável | Carga Fatorial | Interpretação |
+|----------|----------------|---------------|
+| Usaria + com pontos | 0.92 | Muito Forte |
+| Usaria + cashback | 0.91 | Muito Forte |
+| Recomendaria cashback | 0.90 | Forte |
+| Usaria + passe diário | 0.89 | Forte |
+| Usaria + desconto | 0.88 | Forte |
+| Usaria + passe mensal | 0.87 | Forte |
+| Recomendaria desconto | 0.87 | Forte |
+| Recomendaria pontos | 0.86 | Forte |
+| Usaria + passe anual | 0.85 | Forte |
+| Recomendaria passe | 0.84 | Forte |
+
+**ACEITAÇÃO TECNOLÓGICA (α = 0.91):**
+
+| Variável | Carga Fatorial | Interpretação |
+|----------|----------------|---------------|
+| Pagaria até R$10/dia | 0.81 | Forte |
+| Pagaria R$10-20/dia | 0.79 | Moderada |
+| Aceitaria 10 pontos | 0.78 | Moderada |
+| Aceitaria R$0,50/km | 0.77 | Moderada |
+| Pagaria R$150-200/mês | 0.76 | Moderada |
+| Aceitaria R$5/20km | 0.75 | Moderada |
+| Pagaria R$200-300/mês | 0.74 | Moderada |
+| Aceitaria R$1 desconto | 0.73 | Moderada |
+| Pagaria R$800-1000/ano | 0.72 | Moderada |
+| Aceitaria R$2 desconto | 0.71 | Moderada |
+| Pagaria R$1000-1200/ano | 0.70 | Fraca |
+
+**QUALIDADE DO SERVIÇO (α = 0.920):**
+
+| Variável | Carga Fatorial | Interpretação |
+|----------|----------------|---------------|
+| Informação de linhas e horários | 0.85 | Forte |
+| Preço da passagem | 0.82 | Forte |
+| Locais atendidos | 0.79 | Moderada |
+| Espaço suficiente | 0.78 | Moderada |
+| Confiabilidade horários | 0.76 | Moderada |
+| Temperatura interna | 0.75 | Moderada |
+| Facilidade entrada/saída | 0.74 | Moderada |
+| Tempo de viagem | 0.73 | Moderada |
+| Limpeza | 0.72 | Moderada |
+| Frequência veículos | 0.71 | Moderada |
+| Velocidade | 0.69 | Fraca |
+| Segurança | 0.67 | Fraca |
 
 ### **DETALHAMENTO POR CONSTRUTO**
 
@@ -818,7 +962,7 @@ A análise hierárquica das cargas fatoriais revela insights significativos sobr
 
 **EXCELÊNCIA PSICOMÉTRICA E IMPLICAÇÕES METODOLÓGICAS:**
 
-O construto demonstra qualidade psicométrica excepcional em todas as dimensões avaliadas. O coeficiente Alfa de Cronbach (α = 0.94) situa-se na categoria "excelente" segundo classificações de George & Mallery (2019), indicando consistência interna quase perfeita entre os nove indicadores. A variância explicada de 76% excede significativamente os critérios rigorosos de Bagozzi & Yi (1988) para validade convergente (> 50%), confirmando que os indicadores compartilham uma base conceitual comum substancial.
+O construto demonstra qualidade psicométrica excepcional em todas as dimensões avaliadas. O coeficiente Alfa de Cronbach (α = 0.963) situa-se na categoria "excelente" segundo classificações de George & Mallery (2019), indicando consistência interna quase perfeita entre os nove indicadores. A variância explicada de 86.6% excede significativamente os critérios rigorosos de Bagozzi & Yi (1988) para validade convergente (> 50%), confirmando que os indicadores compartilham uma base conceitual comum substancial.
 
 A média elevada do construto (M = 4.51) em escala de 1-5 indica receptividade muito favorável a sistemas de recompensas, contrastando marcadamente com a avaliação desfavorável da qualidade atual (M = 1.64). Este contraste sugere uma lacuna significativa entre expectativas de valor futuro e satisfação presente, criando uma oportunidade estratégica para intervenções baseadas em recompensas.
 
@@ -828,17 +972,17 @@ A robustez psicométrica do construto sustenta empiricamente sua posição teór
 
 **SÍNTESE METODOLÓGICA E IMPLICAÇÕES PARA POLÍTICAS PÚBLICAS:**
 
-A análise quantitativa integrada revela um ecossistema complexo de construtos com qualidades psicométricas diferenciadas, mas teoricamente coerentes. A hierarquia de qualidade observada – Percepção de Recompensas (α = 0.94) e Intenção Comportamental (α = 0.93) no topo, seguidos por Qualidade do Serviço (α = 0.89) e Aceitação Tecnológica (α = 0.91) na faixa intermediária, e Perfil Socioeconômico (α = 0.78) na base – reflete a natureza progressivamente mais complexa e heterogênea dos construtos. Esta estrutura sugere que intervenções políticas devem priorizar elementos perceptuais e comportamentais, que demonstram maior coesão interna, sobre características demográficas, que apresentam maior variabilidade natural.
+A análise quantitativa integrada revela um ecossistema complexo de construtos com qualidades psicométricas diferenciadas, mas teoricamente coerentes. A hierarquia de qualidade observada – Percepção de Recompensas (α = 0.963) e Intenção Comportamental (α = 0.975) no topo, seguidos por Qualidade do Serviço (α = 0.920) e Aceitação Tecnológica (α = 0.91) na faixa intermediária, e Perfil Socioeconômico (α = 0.78) na base – reflete a natureza progressivamente mais complexa e heterogênea dos construtos. Esta estrutura sugere que intervenções políticas devem priorizar elementos perceptuais e comportamentais, que demonstram maior coesão interna, sobre características demográficas, que apresentam maior variabilidade natural.
 
 **VALIDAÇÃO CONVERGENTE E DISCRIMINANTE:**
 
 | Construto                            | Confiabilidade    | Validade Convergente | Prioridade para Intervenção | Complexidade de Implementação |
 | ------------------------------------ | ----------------- | -------------------- | ----------------------------- | ------------------------------- |
-| **Percepção de Recompensas** | Excelente (0.94)  | Excelente (0.76)     | Máxima                       | Moderada                        |
-| **Intenção Comportamental**  | Excelente (0.93)  | Excelente (0.74)     | Máxima                       | Baixa                           |
+| **Percepção de Recompensas** | Excelente (0.963) | Excelente (0.866)    | Máxima                       | Moderada                        |
+| **Intenção Comportamental**  | Excelente (0.975) | Excelente (0.843)    | Máxima                       | Baixa                           |
 | **Aceitação Tecnológica**   | Excelente (0.91)  | Muito Boa (0.65)     | Alta                          | Alta                            |
-| **Qualidade do Serviço**      | Muito Boa (0.89)  | Muito Boa (0.68)     | Alta                          | Muito Alta                      |
-| **Experiência do Usuário**   | Boa (0.87)        | Boa (0.59)           | Moderada                      | Moderada                        |
+| **Qualidade do Serviço**      | Excelente (0.920) | Muito Boa (0.70)     | Alta                          | Muito Alta                      |
+| **Experiência do Usuário**   | Aceitável (0.783) | Boa (0.58)           | Moderada                      | Moderada                        |
 | **Utilização Atual**         | Boa (0.82)        | Boa (0.61)           | Baixa                         | Baixa                           |
 | **Perfil Socioeconômico**     | Aceitável (0.78) | Aceitável (0.52)    | Baixa                         | N/A                             |
 
@@ -976,12 +1120,12 @@ Os indicadores mais fortes do construto são os que medem a satisfação geral: 
 As métricas de resumo atestam a qualidade psicométrica do construto.
 
 * **Média do Construto:** 2.95
-* **Confiabilidade (Alfa de Cronbach, α):** 0.87
-* **Variância Explicada:** 0.59
+* **Confiabilidade (Alfa de Cronbach, α):** 0.783
+* **Variância Explicada:** 0.58
 
 #### **Síntese Interpretativa**
 
-O construto "Experiência do Usuário" apresenta boa validade e confiabilidade. O valor do Alfa de Cronbach de **α = 0.87** indica uma alta consistência interna, o que significa que os 9 itens medem de forma coesa a mesma ideia de experiência do usuário. O construto também explica **59% da variância total** de seus indicadores, um valor considerado bom em ciências sociais.
+O construto "Experiência do Usuário" apresenta validade e confiabilidade aceitáveis. O valor do Alfa de Cronbach de **α = 0.783** indica uma consistência interna aceitável, o que significa que os 9 itens medem de forma coesa a mesma ideia de experiência do usuário. O construto também explica **58% da variância total** de seus indicadores, um valor considerado adequado em ciências sociais.
 
 No modelo estrutural geral, a "Experiência do Usuário" é um preditor importante da "Intenção Comportamental" (com β = 0.710). A análise detalhada confirma que este construto é bem-formado, capturando de maneira eficaz tanto a satisfação global quanto as interações práticas que, em conjunto, moldam a percepção do usuário sobre o serviço de transporte público.
 
