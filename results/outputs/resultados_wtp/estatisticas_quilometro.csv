@@ -1,0 +1,9 @@
+,Eu aceitaria receber até 50 centavos por quilômetro percorrido no transporte público ,Eu aceitaria receber até 5 reais a cada 20 quilômetros percorridos no transporte público ,Eu gostaria de receber um valor de volta por quilômetro viajado no transporte público ,Eu gostaria de receber um valor de volta por quilômetro viajado no transporte público _bdtp,Eu aceitaria receber até 50 centavos por quilômetro percorrido no transporte público _bdtp,Eu aceitaria receber até 5 reais a cada 20 quilômetros percorridos no transporte público _bdtp
+count,703.0,703.0,703.0,703.0,703.0,703.0
+mean,1.1735419630156472,1.1650071123755334,4.691322901849218,4.692745376955903,1.1749644381223328,1.1607396870554765
+std,0.76126663877801,0.7442650392617476,0.8979377050116537,0.8976330075656377,0.7600039118498002,0.7365473618079333
+min,0.0,0.0,1.0,1.0,0.0,0.0
+25%,1.0,1.0,5.0,5.0,1.0,1.0
+50%,1.0,1.0,5.0,5.0,1.0,1.0
+75%,1.0,1.0,5.0,5.0,1.0,1.0
+max,4.0,4.0,5.0,5.0,4.0,4.0

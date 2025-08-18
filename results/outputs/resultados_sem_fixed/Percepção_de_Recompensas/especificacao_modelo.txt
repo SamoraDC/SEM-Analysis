@@ -1,0 +1,9 @@
+
+    # Modelo de medida simplificado
+    Percepcao =~ V1 + V2 + V3 + V4
+    
+    # Variáveis de erro
+    V1 ~~ V1
+    V2 ~~ V2
+    V3 ~~ V3
+    

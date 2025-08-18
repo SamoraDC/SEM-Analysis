@@ -1,0 +1,25 @@
+coluna,mediana,media,percentil_25,percentil_50,percentil_75,percentil_90,percentil_95,prop_até_1.00,prop_até_2.50,prop_até_2.00,prop_até_3.00,prop_até_0.00,prop_concordância_forte,prop_concordância,prop_discordância
+Eu aceitaria pagar até 10 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público,1.0,1.298719772403983,1.0,1.0,1.0,3.0,4.0,83.49928876244665,,,,,,,
+Eu aceitaria pagar de 10 a 20 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público,1.0,1.5761024182076813,1.0,1.0,2.5,3.0,4.0,67.28307254623044,74.96443812233285,,,,,,
+Eu aceitaria pagar entre 150 e 200 reais mensais para ter viagens ilimitadas em um mês no transporte público,1.0,1.4537695590327169,1.0,1.0,2.0,3.0,4.0,73.39971550497866,,79.37411095305832,,,,,
+Eu aceitaria pagar entre 200 e 300 reais mensais para ter viagens ilimitadas em um mês no transporte público,1.0,1.6486486486486487,1.0,1.0,3.0,3.0,4.0,63.1578947368421,,,93.17211948790897,,,,
+Eu aceitaria pagar de 800 a 1000 reais por ano para ter viagens ilimitadas em um ano no transporte público,1.0,1.6230440967283073,1.0,1.0,3.0,3.0,4.0,66.14509246088194,,,92.88762446657184,,,,
+Eu aceitaria pagar entre 1000 e 1200 reais por ano para ter viagens ilimitadas em um ano no transporte público,1.0,1.7126600284495022,1.0,1.0,3.0,3.0,4.0,61.87766714082503,,,92.60312944523471,,,,
+"Se eu pudesse pagar por dia para ter passagens ilimitadas, usaria mais transporte público",0.0,0.620199146514936,0.0,0.0,0.0,3.0,4.0,,,,,77.0981507823613,,,
+"Se eu pudesse pagar por mês para ter passagens ilimitadas, usaria mais transporte público ",0.0,0.615931721194879,0.0,0.0,0.0,3.0,4.0,,,,,76.81365576102418,,,
+"Se eu pudesse pagar por ano para ter passagens ilimitadas, usaria mais transporte público ",0.0,0.6955903271692745,0.0,0.0,0.0,3.0,4.0,,,,,76.24466571834992,,,
+Eu gostaria de ter a opção de pagar um valor diário por passagens ilimitadas no transporte público,5.0,4.500711237553343,5.0,5.0,5.0,5.0,5.0,,,,,,85.77524893314367,91.74964438122333,8.250355618776672
+Eu gostaria de ter a opção de pagar um valor mensal por passagens ilimitadas no transporte público,5.0,4.503556187766714,5.0,5.0,5.0,5.0,5.0,,,,,,86.20199146514936,91.74964438122333,8.250355618776672
+Eu gostaria de ter a opção de pagar um valor anual por passagens ilimitadas no transporte público,5.0,4.431009957325747,5.0,5.0,5.0,5.0,5.0,,,,,,82.78805120910384,89.61593172119487,10.38406827880512
+Eu gostaria de ter a opção de pagar um valor diário por passagens ilimitadas no transporte público_bdtp,5.0,4.509246088193456,5.0,5.0,5.0,5.0,5.0,,,,,,86.0597439544808,91.8918918918919,8.108108108108109
+Eu gostaria de ter a opção de pagar um valor mensal por passagens ilimitadas no transporte público_bdtp,5.0,4.532005689900426,5.0,5.0,5.0,5.0,5.0,,,,,,86.91322901849217,92.46088193456615,7.539118065433854
+Eu gostaria de ter a opção de pagar um valor anual por passagens ilimitadas no transporte público_bdtp,5.0,4.436699857752489,5.0,5.0,5.0,5.0,5.0,,,,,,82.9302987197724,89.75817923186344,10.241820768136558
+"Se eu pudesse pagar por dia para ter passagens ilimitadas, usaria mais transporte público_bdtp",0.0,0.6145092460881935,0.0,0.0,0.0,3.0,4.0,,,,,77.24039829302988,,,
+"Se eu pudesse pagar por mês para ter passagens ilimitadas, usaria mais transporte público _bdtp",0.0,0.615931721194879,0.0,0.0,0.0,3.0,4.0,,,,,76.81365576102418,,,
+"Se eu pudesse pagar por ano para ter passagens ilimitadas, usaria mais transporte público _bdtp",0.0,0.689900426742532,0.0,0.0,0.0,3.0,4.0,,,,,76.38691322901849,,,
+Eu aceitaria pagar até 10 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público_bdtp,1.0,1.3001422475106685,1.0,1.0,1.0,3.0,4.0,83.49928876244665,,,,,,,
+Eu aceitaria pagar de 10 a 20 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público_bdtp,1.0,1.5761024182076813,1.0,1.0,2.5,3.0,4.0,67.28307254623044,74.96443812233285,,,,,,
+Eu aceitaria pagar entre 150 e 200 reais mensais para ter viagens ilimitadas em um mês no transporte público_bdtp,1.0,1.4523470839260313,1.0,1.0,2.0,3.0,4.0,73.54196301564723,,79.37411095305832,,,,,
+Eu aceitaria pagar entre 200 e 300 reais mensais para ter viagens ilimitadas em um mês no transporte público_bdtp,1.0,1.6443812233285917,1.0,1.0,3.0,3.0,4.0,63.30014224751067,,,93.31436699857753,,,,
+Eu aceitaria pagar de 800 a 1000 reais por ano para ter viagens ilimitadas em um ano no transporte público_bdtp,1.0,1.6130867709815078,1.0,1.0,3.0,3.0,4.0,66.71408250355618,,,92.88762446657184,,,,
+Eu aceitaria pagar entre 1000 e 1200 reais por ano para ter viagens ilimitadas em um ano no transporte público_bdtp,1.0,1.7126600284495022,1.0,1.0,3.0,3.0,4.0,61.87766714082503,,,92.60312944523471,,,,

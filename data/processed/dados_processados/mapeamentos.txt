@@ -1,0 +1,1005 @@
+
+
+=== Mapeamentos para perfil ===
+
+Coluna: Gênero 
+  Feminino -> 0
+  Masculino -> 1
+  Outro -> 2
+
+Coluna: Raça
+  Amarela -> 0
+  Branca -> 1
+  Indígena -> 2
+  Negra ( pretos e pardos) -> 3
+
+Coluna: Idade
+  18–24 -> 0
+  18–24 anos -> 1
+  25–49 -> 2
+  25–49 anos -> 3
+  50–64 anos -> 4
+  65 anos ou mais -> 5
+  65 ou mais -> 6
+  Menor que 18 -> 7
+  Menor que 18 anos -> 8
+
+Coluna: Nível de escolaridade
+
+  Ensino Médio ou Técnico (completo ou incompleto) -> 0
+  Ensino Médio (completo ou incompleto) -> 1
+  Fundamental (completo ou incompleto) -> 2
+  Graduação (completo ou incompleto) -> 3
+  Pós-graduação (Especialização; MBA; Mestrado; Doutorado, seja completo ou incompleto) -> 4
+
+Coluna: Situação Profissional 
+  Aposentado -> 0
+  Desempregado -> 1
+  Empregado (carteira assinada ou autônomo) -> 2
+  Estagiário -> 3
+  Estudante -> 4
+  Motorista de Aplicativo -> 5
+
+Coluna: Renda
+  Acima de 10 salários mínimos:  R$ 13.020 -> 0
+  Até 1 salário mínimo:  R$ 1.302 -> 1
+  De 1 a 2 salários mínimos: R$ 1.302 a R$ 2.604 -> 2
+  De 2 a 3 salários mínimos: R$ 2.604 a R$ 3.906 -> 3
+  De 3 a 5 salários mínimos: R$ 3.906 a R$ 6.510 -> 4
+  De 5 a 10 salários mínimos: R$ 6.510 a R$ 13.020 -> 5
+  Não possuo renda -> 6
+
+Coluna: Muito obrigado por fazer parte da nossa pesquisa utilize este espaço para deixar seus comentários e sugestões 
+  Bom dia, e valido esta pesquisa, mas as perguntas não foram bem elaboradas, pois se descorda de algo no item anterior no próximo você entra com a pergunta retornando a mesma ideia para dar atura resposta, como se descordo com a recompensa de algo para utilizar o transporte que vai gerar custo adicional pois agem vai pagar esta recompensa você retorna na próxima fase folhando se eu gostaria de ganhar 2 reais de recompensa . já falei que agostaria de ganhar nada , entendeu. Formular o questionário corretamente -> 0
+  Bom trabalho! -> 1
+  Espero que esse tipo de sistema vire realidade -> 2
+  Eu quem agradeço !  -> 3
+  Fica impossivel usar transporte publico tendo filhos pra levar pra escola -> 4
+  Gostaria de entender, se caso a pesquisa fosse para um forum de discursão como seria o controle das recompensas? obrigada! -> 5
+  Gosto de participar -> 6
+  Importante pesquisa! Espero que dê bons frutos no futuro. Uma coisa que me incomodou é que a disposição das perguntas no começo parece um pouco confusa. Bons estudos por aí! -> 7
+  Longa e confusa -> 8
+  Não tem como depender de ônibus com crianças em casa -> 9
+  O transporte público certamente melhoraria muito se o quadro de horário de viagens fosse cumprido. -> 10
+  Pesquisa muito longa, desencoraja a resposta. Quase desisti de terminar. -> 11
+  Poderia ter colocado a opção de home office,  trabalho quase todos os dias de casa. -> 12
+  Primeiro item que falta no serviço de transporte é o pagamento por cartões de crédito, débito e apps de pagamentos. Facilitar as maneiras de pagar. Posteriormente, tentar fidelizar com programas de benefícios. Assim o cliente pode escolher: vou de certão de crédito ou vou usar o programa de benefícios. Dar opções é essencial na nova sociedade de consumo. -> 13
+  Que a Prefeitura de BH venha EXTINGUIR O SISTEMA DIAMETRAL POR ÔNIBUS. SERVICO CARO, EXTRESSANTE PARA MOTORISTAS, SEM SENTIDO ESTE SERVICO , POIS A MAIORIA DIS USUÁRIOS DESEMBARCAM NO CENTRO OU ANTES DELE. O DIA QUE ISSO VIER ACONTECER, IS BAIRROS SERAO VEM ATENDIDOS NOS FLUXOS DAS VIAGENS, POIS NAO FICAM REFENS DO TRÂNSITO DE OUTRAS REGIOES DA CIDADE. ALEM DISSO O PRECO DA PASSAGEM SERA REDUZIDO . QTO AIS BAIRROS NAIS DISTANTES, QUE A PBH DESENVOLVA SUBSIDIOS NOS PRECOS DAS PASSAGENS DESSAS REGIOES, POIS O SISTEMA DIAMETRAL POR ONIBUS NAO E EXTINTO, PARA SUBSIDIAR AS PASSAGENS DOS BAIRROS MAIS DISTANTES. EQTO ISSO AMARGAMOS UM PÉSSIMO SERVICO TRANSPORTE COLETIVO. O MOTORISTA E ALEM DE MOTORISTA, TROCADOR, PSICOLOGO, INFORMANTE E SEGURANCA . FALTA VONTADE POLÍTICA DE UMA MUDANCA RADICAL . E QUE VENHA UM DIA O METRO COM SEUS RAMAIS, PARA DAR O TIRO DE MISERICÓRDIA  NUM SISTEMA DE TRANSPORTE COLETIVO FALIDO. -> 14
+  Rodoviárias no Brasil estão muito desatualizadas, além do indícios de desvio de verba, pois não existe transparência na arrecadação x despesas. -> 15
+  Se melhorarem o transporte público todo mundo iria passar a usar, eu uso porque a empresa fornece vale e não levo muito tempo além de ajudar o meio ambiente. Porém se levasse mais tempo para chegar ao trabalho provavelmente iria de carro. -> 16
+  Sou a favor de investimento em transporte público eficaz e seguro. Infelizmente não utilizo em Belo Horizonte por não ter uma linha direta da minha residência e pelo tempo de deslocamento no trânsito. Mas considerado que investimentos em transporte publico contribuem para o crescimento da Cidade;. -> 17
+  Sucesso!!! -> 18
+  Uso o transporte publico somente no carnaval -> 19
+  Uso transporte público somente para o trabalho. -> 20
+  impossivel utilizar transporte publico com crianças pequenas pra deixar na escola e chegar a tempo no trabalho fora os gastos -> 21
+  minha raça é:   PRETO, e BRANCO, e ÍNDIO -> 22
+  teria a possiblidade da criação de um cartão familia? pra não ter que pagar uma passagem pra cada pessoa  -> 23
+  Ótima pesquisa parabéns pela iniciativa  -> 24
+
+
+=== Mapeamentos para qualidade ===
+
+Coluna: Preço da passagem
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Espaço disponível é suficiente para os passageiros sentados ou em pé
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Temperatura interna 
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Tempo total de viagem  
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Frequência com que os veículos passam ao longo dia 
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Velocidade dos veículos  
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Segurança dentro dos veículos e nos pontos de ônibus/estações 
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Informação de linhas, horários e itinerários  
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Locais atendidos pelo transporte público 
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Confiabilidade nos horários 
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Facilidade de entrada e saída dos veículos e/ou estações e pontos de ônibus  
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Limpeza dentro do veículo e nos pontos de ônibus e estações
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+
+=== Mapeamentos para experiencia ===
+
+Coluna: Eu estou satisfeito com o serviço entregue pelo transporte público 
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: O serviço transporte Público correspondem às minhas expectativas
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Considero que as minhas necessidades de deslocamento estão sendo atendidos pelo transporte público
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Considero que o transporte público tem um bom custo benefício 
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Considero que sou recompensado por usar o transporte público
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Cartões
+  Difícil -> 0
+  Fácil  -> 1
+  Muito Fácil -> 2
+  Muito difícil -> 3
+  Neutro -> 4
+
+Coluna: Aplicativos de celular
+  Difícil -> 0
+  Fácil  -> 1
+  Muito Fácil -> 2
+  Muito difícil -> 3
+  Neutro -> 4
+
+Coluna: Qr Code
+  Difícil -> 0
+  Fácil  -> 1
+  Muito Fácil -> 2
+  Muito difícil -> 3
+  Neutro -> 4
+
+Coluna: Bilhete impresso
+  Difícil -> 0
+  Fácil  -> 1
+  Muito Fácil -> 2
+  Muito difícil -> 3
+  Neutro -> 4
+
+
+=== Mapeamentos para aceitacao ===
+
+Coluna: Eu aceitaria participar se ganhasse 10 pontos para trocar por produtos e serviços por utilizar o transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar até 10 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar de 10 a 20 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar entre 150 e 200 reais mensais para ter viagens ilimitadas em um mês no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar entre 200 e 300 reais mensais para ter viagens ilimitadas em um mês no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar de 800 a 1000 reais por ano para ter viagens ilimitadas em um ano no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar entre 1000 e 1200 reais por ano para ter viagens ilimitadas em um ano no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria receber até 50 centavos por quilômetro percorrido no transporte público 
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria receber até 5 reais a cada 20 quilômetros percorridos no transporte público 
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria viajar em horários fora de pico se recebesse até 1 real de desconto na passagem
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria viajar em horários fora de pico se recebesse até 2 reais de desconto na passagem
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+
+=== Mapeamentos para intencao ===
+
+Coluna: Se eu ganhasse pontos para trocar por produtos e serviços, usaria mais o transporte público 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Se eu pudesse pagar por dia para ter passagens ilimitadas, usaria mais transporte público
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Se eu pudesse pagar por mês para ter passagens ilimitadas, usaria mais transporte público 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Se eu pudesse pagar por ano para ter passagens ilimitadas, usaria mais transporte público 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Se eu recebesse um valor em troca por quilometro viajado, usaria mais o transporte público 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Se ganhasse desconto na passagem por viajar em horários fora de pico, usaria mais o transporte público 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu recomendaria a amigos familiares e colegas, se eu ganhasse passagens ou pontos para trocar por produtos e serviços
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu recomendaria a amigos familiares e colegas, se eu tivesse passagens ilimitadas no transporte público 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu recomendaria a amigos familiares e colegas o transporte público, se eu recebesse um valor de volta por quilometro viajado 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu recomendaria a amigos familiares e colegas o transporte público, se eu ganhasse desconto na passagem por viajar em horários fora de pico
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+
+=== Mapeamentos para percepcao ===
+
+Coluna: Eu gostaria de ganhar pontos ou créditos para trocar por produtos e serviços
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de poder usar qualquer veículo do transporte público de forma ilimitada
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de poder realizar uma compra antecipada por passagens ilimitadas no transporte público (pré-pago)
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de poder realizar um pagamento depois de usar passagens ilimitadas no transporte público (pós-pago)
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de ter a opção de pagar um valor diário por passagens ilimitadas no transporte público
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de ter a opção de pagar um valor mensal por passagens ilimitadas no transporte público
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de ter a opção de pagar um valor anual por passagens ilimitadas no transporte público
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de receber um valor de volta por quilômetro viajado no transporte público 
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de receber desconto na passagem por viajar em horários fora de pico
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+
+=== Mapeamentos para utilizacao ===
+
+Coluna: Qual a forma que você faz a maioria das viagens?
+  Faço viagens usando aplicativos (uber,99taxis outros...) -> 0
+  Me desloco a pé ou usando bicicleta -> 1
+  Utilizo carro  -> 2
+  Utilizo moto  -> 3
+  Utilizo o transporte público -> 4
+
+Coluna: Você tem carteira de motorista?
+  Não tenho -> 0
+  Sim, de carro -> 1
+  Sim, de moto  -> 2
+  Sim, de uma ou mais categorias -> 3
+  Sim, de ônibus e vans -> 4
+
+Coluna: Você tem veículo próprio?
+  Não tenho -> 0
+  Tenho -> 1
+
+Coluna: Você costuma usar o transporte público em quais dias?
+  Aos domigos -> 0
+  Aos sábados -> 1
+  Em dias uteis -> 2
+  Em feriados -> 3
+  Não uso o transporte público -> 4
+
+Coluna: Como você define sua frequência de uso do transporte público?
+   Não utilizo o transporte público -> 0
+  Uso cinco ou mais vezes por semana -> 1
+  Uso de três a quatro vezes por semana -> 2
+  Uso duas vezes por semana -> 3
+  Uso menos de uma vez por semana -> 4
+  Uso três a quatro vezes por semana -> 5
+  Uso uma ou duas vezes por semana -> 6
+  Uso uma vez por semana -> 7
+
+Coluna: Quantas passagens você usa por dia em suas viagens no transporte público?
+
+  Duas passagens por dia  -> 0
+  Não utilizo o transporte público -> 1
+  Quatro passagens ou mais  -> 2
+  Três passagens por dia  -> 3
+  Uma passagem por dia -> 4
+
+Coluna: Qual o meio de pagamento você utiliza para pagar pelo transporte?
+  Cartão de crédito -> 0
+  Cartão de transporte -> 1
+  Dinheiro -> 2
+  Gratuidade  -> 3
+  QR code -> 4
+  Vale transporte -> 5
+
+Coluna: Qual a principal razão dos seus deslocamentos diários?
+  Compras -> 0
+  Estudo -> 1
+  Lazer -> 2
+  Outros -> 3
+  Trabalho -> 4
+
+Coluna: Quanto tempo você gasta por dia com transporte?
+  Até 30 minutos -> 0
+  Entre 1 hora e 2 horas -> 1
+  Entre 2 horas e 3 horas -> 2
+  Entre 3 horas e 4 horas -> 3
+  Entre 30 minutos e 1 hora -> 4
+  Mais de 4 horas por dia -> 5
+
+Coluna: Qual a principal razão pela qual você preferiria utilizar outro meio de transporte ao invés do transporte público?
+
+
+  Comodidade pra ir a qualquer lugar a qualquer momento   -> 0
+  Gastar menos que com transporte público -> 1
+  Gasto menos que com transporte público -> 2
+  Levar menos tempo  -> 3
+  Levo menos tempo que com o transporte privado -> 4
+  Levo menos tempo  -> 5
+  Me sentir mais  seguro  -> 6
+  Por ser mais confortavél  -> 7
+  Quero ter um veículo próprio  -> 8
+  É mais confortavél  -> 9
+
+
+=== Mapeamentos para bdtp ===
+
+Coluna: Preço da passagem
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Espaço disponível é suficiente para os passageiros sentados ou em pé
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Temperatura interna 
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Tempo total de viagem  
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Frequência com que os veículos passam ao longo dia 
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Velocidade dos veículos  
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Segurança dentro dos veículos e nos pontos de ônibus/estações 
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Informação de linhas, horários e itinerários  
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Locais atendidos pelo transporte público 
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Confiabilidade nos horários 
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Facilidade de entrada e saída dos veículos e/ou estações e pontos de ônibus  
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Limpeza dentro do veículo e nos pontos de ônibus e estações
+  Muito insatisfeito -> 1
+  Insatisfeito -> 2
+  Neutro -> 3
+  Satisfeito -> 4
+  Muito satisfeito -> 5
+
+Coluna: Qual a forma que você faz a maioria das viagens?
+  Faço viagens usando aplicativos (uber,99taxis outros...) -> 0
+  Me desloco a pé ou usando bicicleta -> 1
+  Utilizo carro  -> 2
+  Utilizo moto  -> 3
+  Utilizo o transporte público -> 4
+
+Coluna: Você tem carteira de motorista?
+  Não tenho -> 0
+  Sim, de carro -> 1
+  Sim, de moto  -> 2
+  Sim, de uma ou mais categorias -> 3
+  Sim, de ônibus e vans -> 4
+
+Coluna: Você tem veículo próprio?
+  Não tenho -> 0
+  Tenho -> 1
+
+Coluna: Você costuma usar o transporte público em quais dias?
+  Aos domigos -> 0
+  Aos sábados -> 1
+  Em dias uteis -> 2
+  Em feriados -> 3
+  Não uso o transporte público -> 4
+
+Coluna: Como você define sua frequência de uso do transporte público?
+   Não utilizo o transporte público -> 0
+  Uso cinco ou mais vezes por semana -> 1
+  Uso de três a quatro vezes por semana -> 2
+  Uso duas vezes por semana -> 3
+  Uso menos de uma vez por semana -> 4
+  Uso três a quatro vezes por semana -> 5
+  Uso uma ou duas vezes por semana -> 6
+  Uso uma vez por semana -> 7
+
+Coluna: Quantas passagens você usa por dia em suas viagens no transporte público?
+
+  Duas passagens por dia  -> 0
+  Não utilizo o transporte público -> 1
+  Quatro passagens ou mais  -> 2
+  Três passagens por dia  -> 3
+  Uma passagem por dia -> 4
+
+Coluna: Qual o meio de pagamento você utiliza para pagar pelo transporte?
+  Cartão de crédito -> 0
+  Cartão de transporte -> 1
+  Dinheiro -> 2
+  Gratuidade  -> 3
+  QR code -> 4
+  Vale transporte -> 5
+
+Coluna: Qual a principal razão dos seus deslocamentos diários?
+  Compras -> 0
+  Estudo -> 1
+  Lazer -> 2
+  Outros -> 3
+  Trabalho -> 4
+
+Coluna: Quanto tempo você gasta por dia com transporte?
+  Até 30 minutos -> 0
+  Entre 1 hora e 2 horas -> 1
+  Entre 2 horas e 3 horas -> 2
+  Entre 3 horas e 4 horas -> 3
+  Entre 30 minutos e 1 hora -> 4
+  Mais de 4 horas por dia -> 5
+
+Coluna: Qual a principal razão pela qual você preferiria utilizar outro meio de transporte ao invés do transporte público?
+
+
+  Comodidade pra ir a qualquer lugar a qualquer momento   -> 0
+  Gastar menos que com transporte público -> 1
+  Gasto menos que com transporte público -> 2
+  Levar menos tempo  -> 3
+  Levo menos tempo que com o transporte privado -> 4
+  Levo menos tempo  -> 5
+  Me sentir mais  seguro  -> 6
+  Por ser mais confortavél  -> 7
+  Quero ter um veículo próprio  -> 8
+  É mais confortavél  -> 9
+
+Coluna: Eu gostaria de ganhar pontos ou créditos para trocar por produtos e serviços
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de poder usar qualquer veículo do transporte público de forma ilimitada
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de poder realizar uma compra antecipada por passagens ilimitadas no transporte público (pré-pago)
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de poder realizar um pagamento depois de usar passagens ilimitadas no transporte público (pós-pago)
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de ter a opção de pagar um valor diário por passagens ilimitadas no transporte público
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de ter a opção de pagar um valor mensal por passagens ilimitadas no transporte público
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de ter a opção de pagar um valor anual por passagens ilimitadas no transporte público
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de receber um valor de volta por quilômetro viajado no transporte público 
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Eu gostaria de receber desconto na passagem por viajar em horários fora de pico
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Se eu ganhasse pontos para trocar por produtos e serviços, usaria mais o transporte público 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Se eu pudesse pagar por dia para ter passagens ilimitadas, usaria mais transporte público
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Se eu pudesse pagar por mês para ter passagens ilimitadas, usaria mais transporte público 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Se eu pudesse pagar por ano para ter passagens ilimitadas, usaria mais transporte público 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Se eu recebesse um valor em troca por quilometro viajado, usaria mais o transporte público 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Se ganhasse desconto na passagem por viajar em horários fora de pico, usaria mais o transporte público 
+  Concordo totalmente -> 0
+  Concordo  -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria participar se ganhasse 10 pontos para trocar por produtos e serviços por utilizar o transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar até 10 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar de 10 a 20 reais por dia para ter viagens ilimitadas nesse mesmo dia no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar entre 150 e 200 reais mensais para ter viagens ilimitadas em um mês no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar entre 200 e 300 reais mensais para ter viagens ilimitadas em um mês no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar de 800 a 1000 reais por ano para ter viagens ilimitadas em um ano no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria pagar entre 1000 e 1200 reais por ano para ter viagens ilimitadas em um ano no transporte público
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria receber até 50 centavos por quilômetro percorrido no transporte público 
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria receber até 5 reais a cada 20 quilômetros percorridos no transporte público 
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria viajar em horários fora de pico se recebesse até 1 real de desconto na passagem
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu aceitaria viajar em horários fora de pico se recebesse até 2 reais de desconto na passagem
+  Concordo -> 0
+  Concordo totalmente -> 1
+  Discordo -> 2
+  Discordo totalmente -> 3
+  Neutro -> 4
+
+Coluna: Eu estou satisfeito com o serviço entregue pelo transporte público 
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: O serviço transporte Público correspondem às minhas expectativas
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Considero que as minhas necessidades de deslocamento estão sendo atendidos pelo transporte público
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Considero que o transporte público tem um bom custo benefício 
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Considero que sou recompensado por usar o transporte público
+  Discordo totalmente -> 1
+  Discordo -> 2
+  Neutro -> 3
+  Concordo -> 4
+  Concordo totalmente -> 5
+
+Coluna: Cartões
+  Difícil -> 0
+  Fácil  -> 1
+  Muito Fácil -> 2
+  Muito difícil -> 3
+  Neutro -> 4
+
+Coluna: Aplicativos de celular
+  Difícil -> 0
+  Fácil  -> 1
+  Muito Fácil -> 2
+  Muito difícil -> 3
+  Neutro -> 4
+
+Coluna: Qr Code
+  Difícil -> 0
+  Fácil  -> 1
+  Muito Fácil -> 2
+  Muito difícil -> 3
+  Neutro -> 4
+
+Coluna: Bilhete impresso
+  Difícil -> 0
+  Fácil  -> 1
+  Muito Fácil -> 2
+  Muito difícil -> 3
+  Neutro -> 4
+
+Coluna: Gênero 
+  Feminino -> 0
+  Masculino -> 1
+  Outro -> 2
+
+Coluna: Raça
+  Amarela -> 0
+  Branca -> 1
+  Indígena -> 2
+  Negra ( pretos e pardos) -> 3
+
+Coluna: Idade
+  18–24 -> 0
+  18–24 anos -> 1
+  25–49 -> 2
+  25–49 anos -> 3
+  50–64 anos -> 4
+  65 anos ou mais -> 5
+  65 ou mais -> 6
+  Menor que 18 -> 7
+  Menor que 18 anos -> 8
+
+Coluna: Nível de escolaridade
+
+  Ensino Médio ou Técnico (completo ou incompleto) -> 0
+  Ensino Médio (completo ou incompleto) -> 1
+  Fundamental (completo ou incompleto) -> 2
+  Graduação (completo ou incompleto) -> 3
+  Pós-graduação (Especialização; MBA; Mestrado; Doutorado, seja completo ou incompleto) -> 4
+
+Coluna: Situação Profissional 
+  Aposentado -> 0
+  Desempregado -> 1
+  Empregado (carteira assinada ou autônomo) -> 2
+  Estagiário -> 3
+  Estudante -> 4
+  Motorista de Aplicativo -> 5
+
+Coluna: Possui filhos?  (Insira o número, no caso de não possuir colocar o número zero)
+  0 -> 0
+  0  -> 1
+  1 -> 2
+  2 -> 3
+  3 -> 4
+  4 -> 5
+  5 -> 6
+  6 -> 7
+  9 -> 8
+  Não -> 9
+  Não  -> 10
+  SIM -> 11
+
+Coluna: Renda
+  Acima de 10 salários mínimos:  R$ 13.020 -> 0
+  Até 1 salário mínimo:  R$ 1.302 -> 1
+  De 1 a 2 salários mínimos: R$ 1.302 a R$ 2.604 -> 2
+  De 2 a 3 salários mínimos: R$ 2.604 a R$ 3.906 -> 3
+  De 3 a 5 salários mínimos: R$ 3.906 a R$ 6.510 -> 4
+  De 5 a 10 salários mínimos: R$ 6.510 a R$ 13.020 -> 5
+  Não possuo renda -> 6

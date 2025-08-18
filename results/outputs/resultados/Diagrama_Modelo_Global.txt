@@ -1,0 +1,58 @@
+MODELO GLOBAL - DIAGRAMA DE RELAÇÕES ESTRUTURAIS
+================================================
+
+                               +------------------------+
+                               |                        |
+                  +----------> | DisposicaoAceitar      | <----------+
+                  |            | (Disposição a aceitar  |            |
+                  |            |  recompensas)          |            |
+                  |            |                        |            |
+                  |            +------------------------+            |
+                  |                                                  |
+                  | (0.12)                                           | (0.26)
+                  |                                                  |
++------------------------+                              +------------------------+
+|                        |                              |                        |
+| ExperienciaGeral       |                              | ValorRecompensas       |
+| (Experiência com       | <--------------------------- | (Valor percebido nas   |
+|  transporte público)   |                              |  recompensas)          |
+|                        |                              |                        |
++------------------------+                              +------------------------+
+                ^                                                 |
+                |                                                 |
+                | (0.85)                                          | (-0.14)
+                |                                                 |
+                |                                                 V
++------------------------+
+|                        |
+| QualidadePercebida     |
+| (Qualidade percebida   |
+|  do serviço)           |
+|                        |
++------------------------+
+
+PRINCIPAIS INDICADORES DE CADA CONSTRUTO
+========================================
+
+QualidadePercebida:
+ - qual_confiabilidade_horarios (1.16)
+ - qual_seguranca (1.10)
+ - qual_preco_passagem (1.00)
+ - qual_espaco_disponivel (0.86)
+
+ExperienciaGeral:
+ - exp_necessidades_atendidas (1.07)
+ - exp_corresponde_expectativas (1.01)
+ - exp_satisfeito_servico (1.00)
+
+ValorRecompensas:
+ - percep_gostaria_pontos_creditos (1.00)
+ - percep_gostaria_cashback_km (0.96)
+ - percep_gostaria_desconto_fora_pico (0.75)
+
+DisposicaoAceitar:
+ - aceit_participar_10_pontos (1.00)
+ - aceit_receber_50cent_km (0.99)
+ - aceit_desconto_1real_fora_pico (0.89)
+
+NOTA: Os valores entre parênteses são os coeficientes estimados das relações. 

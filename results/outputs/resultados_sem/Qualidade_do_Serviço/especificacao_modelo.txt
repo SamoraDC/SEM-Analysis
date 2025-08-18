@@ -1,0 +1,12 @@
+
+    # Fatores latentes
+    Tangibilidade =~ Limpeza + Temperatura + "Espaço disponível"
+    Confiabilidade =~ Pontualidade + Frequência + Velocidade
+    Segurança =~ "Segurança dentro dos veículos e nos pontos de ônibus/estações"
+    Custo =~ "Preço da passagem"
+    Acessibilidade =~ "Facilidade de entrada e saída dos veículos e/ou estações e pontos de ônibus" + "Locais atendidos pelo transporte público"
+    Informação =~ "Informação de linhas, horários e itinerários"
+    
+    # Modelo estrutural
+    Satisfação_Geral ~ Tangibilidade + Confiabilidade + Segurança + Custo + Acessibilidade + Informação
+    

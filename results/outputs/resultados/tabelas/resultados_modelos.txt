@@ -1,0 +1,262 @@
+Resultados dos Modelos de Equações Estruturais (SEM)
+================================================================================
+
+Modelo: Qualidade do Serviço
+--------------------------------------------------------------------------------
+Estatísticas de Ajuste:
+       DoF  DoF Baseline        chi2  ...        AIC         BIC    LogLik
+Value   54            66  2092.73856  ...  42.046263  151.374828  2.976869
+
+[1 rows x 14 columns]
+
+Parâmetros Estimados:
+lval            op    rval            Estimate   Std. Err   t-value    p-value   
+--------------------------------------------------------------------------------
+qual_preco_passagem ~     QualidadePercebida 1.0        -                     -         
+qual_espaco_disponivel ~     QualidadePercebida 5.9271     0.7625                0.0000    
+qual_temperatura_interna ~     QualidadePercebida 7.8706     0.9891                0.0000    
+qual_tempo_viagem ~     QualidadePercebida 1.3795     0.2242                0.0000    
+qual_frequencia_veiculos ~     QualidadePercebida 2.5772     0.3586                0.0000    
+qual_velocidade_veiculos ~     QualidadePercebida 1.9159     0.2887                0.0000    
+qual_seguranca  ~     QualidadePercebida 1.2461     0.2145                0.0000    
+qual_informacao_linhas ~     QualidadePercebida 9.6003     1.1987                0.0000    
+qual_locais_atendidos ~     QualidadePercebida 8.7086     1.0876                0.0000    
+qual_confiabilidade_horarios ~     QualidadePercebida 3.1721     0.4293                0.0000    
+qual_facilidade_acesso ~     QualidadePercebida 8.9549     1.1181                0.0000    
+qual_limpeza    ~     QualidadePercebida 6.8281     0.8630                0.0000    
+QualidadePercebida ~~    QualidadePercebida 0.0273     0.0069                0.0001    
+qual_confiabilidade_horarios ~~    qual_confiabilidade_horarios 0.5453     0.0295                0.0000    
+qual_espaco_disponivel ~~    qual_espaco_disponivel 0.7511     0.0417                0.0000    
+qual_facilidade_acesso ~~    qual_facilidade_acesso 0.2794     0.0199                0.0000    
+qual_frequencia_veiculos ~~    qual_frequencia_veiculos 0.4890     0.0264                0.0000    
+qual_informacao_linhas ~~    qual_informacao_linhas 0.3216     0.0229                0.0000    
+qual_limpeza    ~~    qual_limpeza    0.4958     0.0288                0.0000    
+qual_locais_atendidos ~~    qual_locais_atendidos 0.2718     0.0192                0.0000    
+qual_preco_passagem ~~    qual_preco_passagem 0.2865     0.0153                0.0000    
+qual_seguranca  ~~    qual_seguranca  0.4108     0.0220                0.0000    
+qual_temperatura_interna ~~    qual_temperatura_interna 0.4514     0.0273                0.0000    
+qual_tempo_viagem ~~    qual_tempo_viagem 0.3900     0.0209                0.0000    
+qual_velocidade_veiculos ~~    qual_velocidade_veiculos 0.4986     0.0268                0.0000    
+
+================================================================================
+
+Modelo: Utilização do Transporte
+--------------------------------------------------------------------------------
+Estatísticas de Ajuste:
+       DoF  DoF Baseline       chi2  ...       AIC        BIC   LogLik
+Value    4            10  58.475612  ...  21.83364  71.942566  0.08318
+
+[1 rows x 14 columns]
+
+Parâmetros Estimados:
+lval            op    rval            Estimate   Std. Err   t-value    p-value   
+--------------------------------------------------------------------------------
+util_frequencia_uso_tp ~     FrequenciaUso   1.0        -                     -         
+util_qtd_passagens_dia ~     FrequenciaUso   0.1198     0.0179                0.0000    
+util_dias_uso_tp ~     FrequenciaUso   0.3660     0.0267                0.0000    
+util_razao_deslocamento ~     MotivoUso       1.0        -                     -         
+util_tempo_gasto_transporte ~     MotivoUso       -2.1295    0.2762                0.0000    
+FrequenciaUso   ~~    FrequenciaUso   3.5625     0.2989                0.0000    
+MotivoUso       ~~    MotivoUso       0.1347     0.0268                0.0000    
+MotivoUso       ~~    FrequenciaUso   0.5527     0.0541                0.0000    
+util_dias_uso_tp ~~    util_dias_uso_tp 0.5049     0.0400                0.0000    
+util_frequencia_uso_tp ~~    util_frequencia_uso_tp 0.2280     0.2208                0.3019    
+util_qtd_passagens_dia ~~    util_qtd_passagens_dia 0.6405     0.0344                0.0000    
+util_razao_deslocamento ~~    util_razao_deslocamento 0.3281     0.0269                0.0000    
+util_tempo_gasto_transporte ~~    util_tempo_gasto_transporte 2.8520     0.1780                0.0000    
+
+================================================================================
+
+Modelo: Percepção sobre Recompensas
+--------------------------------------------------------------------------------
+Estatísticas de Ajuste:
+       DoF  DoF Baseline         chi2  ...        AIC         BIC    LogLik
+Value   26            36  1441.210729  ...  33.899827  120.451608  2.050086
+
+[1 rows x 14 columns]
+
+Parâmetros Estimados:
+lval            op    rval            Estimate   Std. Err   t-value    p-value   
+--------------------------------------------------------------------------------
+percep_gostaria_pontos_creditos ~     ValorRecompensas 1.0        -                     -         
+percep_gostaria_cashback_km ~     ValorRecompensas 0.9690     0.0226                0.0000    
+percep_gostaria_desconto_fora_pico ~     ValorRecompensas 0.8048     0.0389                0.0000    
+percep_gostaria_uso_ilimitado ~     PreferenciaPassesIlimitados 1.0        -                     -         
+percep_gostaria_pre_pago_ilimitado ~     PreferenciaPassesIlimitados 1.6986     0.0708                0.0000    
+percep_gostaria_pos_pago_ilimitado ~     PreferenciaPassesIlimitados 1.8161     0.0765                0.0000    
+percep_gostaria_pagar_diario_ilimitado ~     PreferenciaPassesIlimitados 1.7235     0.0700                0.0000    
+percep_gostaria_pagar_mensal_ilimitado ~     PreferenciaPassesIlimitados 1.7027     0.0690                0.0000    
+percep_gostaria_pagar_anual_ilimitado ~     PreferenciaPassesIlimitados 1.8463     0.0752                0.0000    
+PreferenciaPassesIlimitados ~~    PreferenciaPassesIlimitados 0.3837     0.0362                0.0000    
+ValorRecompensas ~~    ValorRecompensas 0.7514     0.0452                0.0000    
+ValorRecompensas ~~    PreferenciaPassesIlimitados 0.3779     0.0295                0.0000    
+percep_gostaria_cashback_km ~~    percep_gostaria_cashback_km 0.0989     0.0118                0.0000    
+percep_gostaria_desconto_fora_pico ~~    percep_gostaria_desconto_fora_pico 0.6866     0.0381                0.0000    
+percep_gostaria_pagar_anual_ilimitado ~~    percep_gostaria_pagar_anual_ilimitado 0.1322     0.0091                0.0000    
+percep_gostaria_pagar_diario_ilimitado ~~    percep_gostaria_pagar_diario_ilimitado 0.1050     0.0074                0.0000    
+percep_gostaria_pagar_mensal_ilimitado ~~    percep_gostaria_pagar_mensal_ilimitado 0.0992     0.0071                0.0000    
+percep_gostaria_pontos_creditos ~~    percep_gostaria_pontos_creditos 0.0733     0.0119                0.0000    
+percep_gostaria_pos_pago_ilimitado ~~    percep_gostaria_pos_pago_ilimitado 0.2268     0.0138                0.0000    
+percep_gostaria_pre_pago_ilimitado ~~    percep_gostaria_pre_pago_ilimitado 0.1696     0.0106                0.0000    
+percep_gostaria_uso_ilimitado ~~    percep_gostaria_uso_ilimitado 0.3987     0.0217                0.0000    
+
+================================================================================
+
+Modelo: Intenção de Uso
+--------------------------------------------------------------------------------
+Estatísticas de Ajuste:
+       DoF  DoF Baseline        chi2  ...        AIC        BIC    LogLik
+Value    8            15  974.633621  ...  23.227216  82.446855  1.386392
+
+[1 rows x 14 columns]
+
+Parâmetros Estimados:
+lval            op    rval            Estimate   Std. Err   t-value    p-value   
+--------------------------------------------------------------------------------
+intencao_usaria_mais_passe_diario ~     IntencaoUsoPasses 1.0        -                     -         
+intencao_usaria_mais_passe_mensal ~     IntencaoUsoPasses 1.0378     0.0136                0.0000    
+intencao_usaria_mais_passe_anual ~     IntencaoUsoPasses 1.0579     0.0156                0.0000    
+intencao_usaria_mais_com_pontos ~     IntencaoUsoRecompensas 1.0        -                     -         
+intencao_usaria_mais_cashback_km ~     IntencaoUsoRecompensas 0.9503     0.0548                0.0000    
+intencao_usaria_mais_desconto_fora_pico ~     IntencaoUsoRecompensas 1.6776     0.0717                0.0000    
+IntencaoUsoPasses ~~    IntencaoUsoPasses 1.3728     0.0795                0.0000    
+IntencaoUsoPasses ~~    IntencaoUsoRecompensas 0.7736     0.0533                0.0000    
+IntencaoUsoRecompensas ~~    IntencaoUsoRecompensas 0.4659     0.0453                0.0000    
+intencao_usaria_mais_cashback_km ~~    intencao_usaria_mais_cashback_km 0.4751     0.0263                0.0000    
+intencao_usaria_mais_com_pontos ~~    intencao_usaria_mais_com_pontos 0.5181     0.0287                0.0000    
+intencao_usaria_mais_desconto_fora_pico ~~    intencao_usaria_mais_desconto_fora_pico 0.1241     0.0176                0.0000    
+intencao_usaria_mais_passe_anual ~~    intencao_usaria_mais_passe_anual 0.0948     0.0069                0.0000    
+intencao_usaria_mais_passe_diario ~~    intencao_usaria_mais_passe_diario 0.1196     0.0078                0.0000    
+intencao_usaria_mais_passe_mensal ~~    intencao_usaria_mais_passe_mensal 0.0415     0.0049                0.0000    
+
+================================================================================
+
+Modelo: Disposição a Participar
+--------------------------------------------------------------------------------
+Estatísticas de Ajuste:
+       DoF  DoF Baseline         chi2  ...        AIC         BIC    LogLik
+Value   38            55  2225.987851  ...  49.667175  177.217168  3.166412
+
+[1 rows x 14 columns]
+
+Parâmetros Estimados:
+lval            op    rval            Estimate   Std. Err   t-value    p-value   
+--------------------------------------------------------------------------------
+aceit_pagar_ate_10_dia ~     DisposicaoPagarDiario 1.0        -                     -         
+aceit_pagar_10_20_dia ~     DisposicaoPagarDiario 1.5001     0.0753                0.0000    
+aceit_pagar_150_200_mes ~     DisposicaoPagarMensal 1.0        -                     -         
+aceit_pagar_200_300_mes ~     DisposicaoPagarMensal 1.1137     0.0359                0.0000    
+aceit_pagar_800_1000_ano ~     DisposicaoPagarAnual 1.0        -                     -         
+aceit_pagar_1000_1200_ano ~     DisposicaoPagarAnual 1.0251     0.0265                0.0000    
+aceit_participar_10_pontos ~     DisposicaoAceitarRecompensas 1.0        -                     -         
+aceit_receber_50cent_km ~     DisposicaoAceitarRecompensas 1.0959     0.0334                0.0000    
+aceit_receber_5reais_20km ~     DisposicaoAceitarRecompensas 1.0911     0.0333                0.0000    
+aceit_desconto_1real_fora_pico ~     DisposicaoAceitarRecompensas 1.0462     0.0646                0.0000    
+aceit_desconto_2reais_fora_pico ~     DisposicaoAceitarRecompensas 1.0109     0.0646                0.0000    
+DisposicaoAceitarRecompensas ~~    DisposicaoAceitarRecompensas 0.1484     0.0109                0.0000    
+DisposicaoAceitarRecompensas ~~    DisposicaoPagarMensal 0.1115     0.0110                0.0000    
+DisposicaoPagarAnual ~~    DisposicaoPagarAnual 0.4370     0.0287                0.0000    
+DisposicaoPagarAnual ~~    DisposicaoAceitarRecompensas 0.1137     0.0117                0.0000    
+DisposicaoPagarAnual ~~    DisposicaoPagarDiario 0.2339     0.0175                0.0000    
+DisposicaoPagarAnual ~~    DisposicaoPagarMensal 0.3855     0.0241                0.0000    
+DisposicaoPagarDiario ~~    DisposicaoPagarDiario 0.1569     0.0166                0.0000    
+DisposicaoPagarDiario ~~    DisposicaoAceitarRecompensas 0.1027     0.0091                0.0000    
+DisposicaoPagarDiario ~~    DisposicaoPagarMensal 0.2489     0.0178                0.0000    
+DisposicaoPagarMensal ~~    DisposicaoPagarMensal 0.3479     0.0260                0.0000    
+aceit_desconto_1real_fora_pico ~~    aceit_desconto_1real_fora_pico 0.3394     0.0187                0.0000    
+aceit_desconto_2reais_fora_pico ~~    aceit_desconto_2reais_fora_pico 0.3447     0.0189                0.0000    
+aceit_pagar_1000_1200_ano ~~    aceit_pagar_1000_1200_ano 0.0765     0.0072                0.0000    
+aceit_pagar_10_20_dia ~~    aceit_pagar_10_20_dia 0.1841     0.0144                0.0000    
+aceit_pagar_150_200_mes ~~    aceit_pagar_150_200_mes 0.1571     0.0096                0.0000    
+aceit_pagar_200_300_mes ~~    aceit_pagar_200_300_mes 0.1203     0.0087                0.0000    
+aceit_pagar_800_1000_ano ~~    aceit_pagar_800_1000_ano 0.0993     0.0077                0.0000    
+aceit_pagar_ate_10_dia ~~    aceit_pagar_ate_10_dia 0.2042     0.0119                0.0000    
+aceit_participar_10_pontos ~~    aceit_participar_10_pontos 0.0608     0.0039                0.0000    
+aceit_receber_50cent_km ~~    aceit_receber_50cent_km 0.0297     0.0028                0.0000    
+aceit_receber_5reais_20km ~~    aceit_receber_5reais_20km 0.0301     0.0028                0.0000    
+
+================================================================================
+
+Modelo: Experiência e Facilidade de Pagamento
+--------------------------------------------------------------------------------
+Estatísticas de Ajuste:
+       DoF  DoF Baseline        chi2  ...        AIC         BIC    LogLik
+Value   26            36  226.673441  ...  37.355125  123.906906  0.322437
+
+[1 rows x 14 columns]
+
+Parâmetros Estimados:
+lval            op    rval            Estimate   Std. Err   t-value    p-value   
+--------------------------------------------------------------------------------
+exp_satisfeito_servico ~     ExperienciaGeralComTP 1.0        -                     -         
+exp_corresponde_expectativas ~     ExperienciaGeralComTP 1.0103     0.0200                0.0000    
+exp_necessidades_atendidas ~     ExperienciaGeralComTP 1.0792     0.0356                0.0000    
+exp_bom_custo_beneficio ~     ExperienciaGeralComTP 0.9795     0.0223                0.0000    
+exp_sente_recompensado ~     ExperienciaGeralComTP 0.9233     0.0214                0.0000    
+exp_facilidade_cartoes ~     FacilidadePagamento 1.0        -                     -         
+exp_facilidade_aplicativos ~     FacilidadePagamento 6.4099     0.9295                0.0000    
+exp_facilidade_qrcode ~     FacilidadePagamento 8.6430     1.2570                0.0000    
+exp_facilidade_bilhete_impresso ~     FacilidadePagamento 4.6155     0.6991                0.0000    
+ExperienciaGeralComTP ~~    ExperienciaGeralComTP 0.7659     0.0458                0.0000    
+FacilidadePagamento ~~    FacilidadePagamento 0.0367     0.0105                0.0005    
+FacilidadePagamento ~~    ExperienciaGeralComTP -0.0421    0.0093                0.0000    
+exp_bom_custo_beneficio ~~    exp_bom_custo_beneficio 0.1615     0.0105                0.0000    
+exp_corresponde_expectativas ~~    exp_corresponde_expectativas 0.1042     0.0079                0.0000    
+exp_facilidade_aplicativos ~~    exp_facilidade_aplicativos 1.1587     0.0969                0.0000    
+exp_facilidade_bilhete_impresso ~~    exp_facilidade_bilhete_impresso 1.5446     0.0922                0.0000    
+exp_facilidade_cartoes ~~    exp_facilidade_cartoes 0.4299     0.0233                0.0000    
+exp_facilidade_qrcode ~~    exp_facilidade_qrcode 0.6915     0.1391                0.0000    
+exp_necessidades_atendidas ~~    exp_necessidades_atendidas 0.5434     0.0309                0.0000    
+exp_satisfeito_servico ~~    exp_satisfeito_servico 0.0914     0.0073                0.0000    
+exp_sente_recompensado ~~    exp_sente_recompensado 0.1520     0.0097                0.0000    
+
+================================================================================
+
+Modelo: Modelo Global
+--------------------------------------------------------------------------------
+Estatísticas de Ajuste:
+       DoF  DoF Baseline        chi2  ...        AIC         BIC    LogLik
+Value   61            78  505.870834  ...  58.560823  195.221529  0.719589
+
+[1 rows x 14 columns]
+
+Parâmetros Estimados:
+lval            op    rval            Estimate   Std. Err   t-value    p-value   
+--------------------------------------------------------------------------------
+ExperienciaGeral ~     QualidadePercebida 0.8537     0.0764                0.0000    
+DisposicaoAceitar ~     ValorRecompensas 0.2610     0.0175                0.0000    
+DisposicaoAceitar ~     ExperienciaGeral 0.1182     0.0164                0.0000    
+qual_preco_passagem ~     QualidadePercebida 1.0        -                     -         
+qual_espaco_disponivel ~     QualidadePercebida 0.8580     0.1113                0.0000    
+qual_seguranca  ~     QualidadePercebida 1.1044     0.0580                0.0000    
+qual_confiabilidade_horarios ~     QualidadePercebida 1.1632     0.0749                0.0000    
+exp_satisfeito_servico ~     ExperienciaGeral 1.0        -                     -         
+exp_corresponde_expectativas ~     ExperienciaGeral 1.0092     0.0225                0.0000    
+exp_necessidades_atendidas ~     ExperienciaGeral 1.0680     0.0363                0.0000    
+percep_gostaria_pontos_creditos ~     ValorRecompensas 1.0        -                     -         
+percep_gostaria_cashback_km ~     ValorRecompensas 0.9586     0.0233                0.0000    
+percep_gostaria_desconto_fora_pico ~     ValorRecompensas 0.7526     0.0396                0.0000    
+aceit_participar_10_pontos ~     DisposicaoAceitar 1.0        -                     -         
+aceit_receber_50cent_km ~     DisposicaoAceitar 0.9900     0.0414                0.0000    
+aceit_desconto_1real_fora_pico ~     DisposicaoAceitar 0.8944     0.0650                0.0000    
+DisposicaoAceitar ~~    DisposicaoAceitar 0.1077     0.0085                0.0000    
+ExperienciaGeral ~~    ExperienciaGeral 0.6091     0.0389                0.0000    
+QualidadePercebida ~~    QualidadePercebida 0.2273     0.0185                0.0000    
+ValorRecompensas ~~    ValorRecompensas 0.7671     0.0458                0.0000    
+ValorRecompensas ~~    QualidadePercebida -0.1405    0.0187                0.0000    
+aceit_desconto_1real_fora_pico ~~    aceit_desconto_1real_fora_pico 0.3699     0.0207                0.0000    
+aceit_participar_10_pontos ~~    aceit_participar_10_pontos 0.0442     0.0058                0.0000    
+aceit_receber_50cent_km ~~    aceit_receber_50cent_km 0.0462     0.0058                0.0000    
+exp_corresponde_expectativas ~~    exp_corresponde_expectativas 0.0967     0.0120                0.0000    
+exp_necessidades_atendidas ~~    exp_necessidades_atendidas 0.5513     0.0322                0.0000    
+exp_satisfeito_servico ~~    exp_satisfeito_servico 0.0823     0.0115                0.0000    
+percep_gostaria_cashback_km ~~    percep_gostaria_cashback_km 0.0998     0.0132                0.0000    
+percep_gostaria_desconto_fora_pico ~~    percep_gostaria_desconto_fora_pico 0.7389     0.0406                0.0000    
+percep_gostaria_pontos_creditos ~~    percep_gostaria_pontos_creditos 0.0578     0.0135                0.0000    
+qual_confiabilidade_horarios ~~    qual_confiabilidade_horarios 0.5123     0.0311                0.0000    
+qual_espaco_disponivel ~~    qual_espaco_disponivel 1.5423     0.0840                0.0000    
+qual_preco_passagem ~~    qual_preco_passagem 0.0864     0.0102                0.0000    
+qual_seguranca  ~~    qual_seguranca  0.1760     0.0147                0.0000    
+
+================================================================================
+

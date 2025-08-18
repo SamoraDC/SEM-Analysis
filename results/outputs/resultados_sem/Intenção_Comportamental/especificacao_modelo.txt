@@ -1,0 +1,9 @@
+
+    # Fatores latentes
+    Intenção_Pontos =~ "Eu usaria mais o transporte público se ganhasse pontos para trocar por produtos e serviços"
+    Intenção_Ilimitado =~ "Se eu pudesse pagar por dia para ter passagens ilimitadas, usaria mais transporte público" + "Se eu pudesse pagar por mês para ter passagens ilimitadas, usaria mais transporte público" + "Se eu pudesse pagar por ano para ter passagens ilimitadas, usaria mais transporte público"
+    Intenção_Financeira =~ "Se eu recebesse um valor em troca por quilometro viajado, usaria mais o transporte público" + "Se ganhasse desconto na passagem por viajar em horários fora de pico, usaria mais o transporte público"
+    
+    # Modelo estrutural
+    Intenção_Uso =~ Intenção_Pontos + Intenção_Ilimitado + Intenção_Financeira
+    
