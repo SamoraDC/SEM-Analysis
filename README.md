@@ -15,7 +15,32 @@ Este projeto contém uma análise completa de **Structural Equation Modeling (SE
 - **61.5%** dos usuários são mulheres, indicando maior dependência feminina
 - **82.2%** dos usuários têm ensino médio ou superior (perfil mais educado que esperado)
 
-## 🎯 GUIA COMPLETO PARA REPRODUZIR OS RESULTADOS
+## ⚡ NAVEGAÇÃO RÁPIDA - ESCOLHA SEU SISTEMA OPERACIONAL
+
+### 🎯 **INSTRUÇÕES ESPECÍFICAS POR SISTEMA:**
+
+| Sistema Operacional | Link Direto | Dificuldade | Observações |
+|-------------------|-------------|-------------|-------------|
+| 🪟 **Windows** | [CLIQUE AQUI](#-instruções-para-windows) | ⭐⭐ Fácil | PowerShell + instaladores gráficos |
+| 🍎 **macOS** | [CLIQUE AQUI](#-instruções-para-macos) | ⭐⭐ Fácil | Homebrew + Terminal |
+| 🐧 **Linux** | [CLIQUE AQUI](#-instruções-para-linux) | ⭐⭐⭐ Médio | Múltiplas distribuições |
+
+### 📋 **OUTRAS SEÇÕES ÚTEIS:**
+
+| Seção | Link | Quando Usar |
+|-------|------|-------------|
+| 🆘 **Problemas?** | [Solução de Problemas](#-solução-de-problemas-por-sistema-operacional) | Se algo não funcionar |
+| 📊 **Resultados** | [O que esperar](#-verificação-dos-resultados-todos-os-sistemas) | Para conferir se deu certo |
+| 🚀 **Início Rápido** | [Resumo](#-início-rápido) | Para usuários experientes |
+| 📁 **Estrutura** | [Organização do Projeto](#-estrutura-do-projeto) | Para entender a organização |
+
+---
+
+## 🎯 INFORMAÇÕES GERAIS DO PROJETO
+
+### 📦 **COMO VOCÊ RECEBERÁ O PROJETO:**
+- **Arquivo ZIP:** `SEM-Analysis.zip` contendo todo o projeto estruturado
+- **Alternativa:** Repositório GitHub: [https://github.com/SamoraDC/SEM-Analysis.git](https://github.com/SamoraDC/SEM-Analysis.git)
 
 ### 📊 **RELATÓRIO PRINCIPAL QUE SERÁ REPRODUZIDO:**
 - **Arquivo:** `results/reports/Relatório.md` (1,986 linhas de análise completa)
@@ -23,224 +48,279 @@ Este projeto contém uma análise completa de **Structural Equation Modeling (SE
 - **Figuras:** 58 imagens e diagramas profissionais
 - **Dados:** 703 respondentes, 69 variáveis, 7 construtos
 
+### ⏱️ **TEMPO TOTAL ESTIMADO:**
+- **Instalação:** 10-15 minutos
+- **Execução:** 15-30 minutos  
+- **Total:** 25-45 minutos
+
 ---
 
-## 🚀 PASSO A PASSO COMPLETO - DO ZERO AO RESULTADO
+# 🚀 INSTRUÇÕES DETALHADAS POR SISTEMA OPERACIONAL
 
-### **ETAPA 1: INSTALAÇÃO DAS FERRAMENTAS BÁSICAS**
+> **💡 IMPORTANTE:** Escolha **APENAS** seu sistema operacional abaixo e siga as instruções específicas.  
+> **Não é necessário** fazer todos os sistemas - apenas o seu!
 
-#### 🐍 **1.1 Instalando Python (Obrigatório)**
+---
 
-**Windows:**
+# 🪟 INSTRUÇÕES PARA WINDOWS
+
+## **ETAPA 1: INSTALAÇÃO DAS FERRAMENTAS BÁSICAS - WINDOWS**
+
+### 🐍 **1.1 Instalando Python**
 1. Vá para [python.org/downloads](https://python.org/downloads)
 2. Clique em "Download Python 3.11.x" (versão mais recente)
-3. ✅ **IMPORTANTE:** Marque "Add Python to PATH" durante a instalação
+3. ✅ **CRÍTICO:** Marque "Add Python to PATH" durante a instalação
 4. Execute o instalador e clique "Install Now"
-5. Teste no CMD/PowerShell: `python --version`
+5. Teste no PowerShell/CMD:
+   ```cmd
+   python --version
+   pip --version
+   ```
 
-**macOS:**
-```bash
-# Instalar via Homebrew (recomendado)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install python
-```
-
-**Linux (Ubuntu/Debian):**
-```bash
-sudo apt update
-sudo apt install python3 python3-pip
-```
-
-#### 📊 **1.2 Instalando R (Obrigatório)**
-
-**Windows:**
+### 📊 **1.2 Instalando R**
 1. Vá para [r-project.org](https://www.r-project.org/)
 2. Clique "CRAN" → Escolha um mirror brasileiro
 3. Clique "Download R for Windows" → "base" → "Download R"
-4. Execute o instalador
+4. Execute o instalador (aceite configurações padrão)
+5. Teste abrindo "R" no menu iniciar
 
-**macOS:**
+### ⚡ **1.3 Instalando UV (Gerenciador de Pacotes)**
+Abra o **PowerShell como Administrador** e execute:
+```powershell
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+Teste:
+```cmd
+uv --version
+```
+
+### 🛠️ **1.4 Instalando Git (Opcional)**
+1. Vá para [git-scm.com/download/win](https://git-scm.com/download/win)
+2. Baixe e execute o instalador
+3. Durante a instalação, aceite as configurações padrão
+4. Teste no PowerShell: `git --version`
+
+## **ETAPA 2: BAIXANDO O PROJETO - WINDOWS**
+
+### **Método A: Via Arquivo ZIP (Recomendado)**
+1. Você recebeu o arquivo **`SEM-Analysis.zip`**
+2. Clique direito no arquivo → "Extrair aqui" ou use WinRAR/7-Zip
+3. Abra o PowerShell e navegue para a pasta:
+   ```cmd
+   cd C:\caminho\para\SEM-Analysis
+   ```
+
+### **Método B: Via Git Clone**
+```cmd
+git clone https://github.com/SamoraDC/SEM-Analysis.git
+cd SEM-Analysis
+```
+
+## **ETAPA 3: EXECUTANDO A ANÁLISE - WINDOWS**
+
+### **3.1 Configuração do Ambiente**
+```cmd
+# No PowerShell, dentro da pasta SEM-Analysis
+uv sync
+```
+
+### **3.2 Instalação dos Pacotes R**
+Abra o R e execute:
+```r
+install.packages(c("lavaan", "semPlot", "ggplot2", "dplyr", "corrplot", "psych", "tidyverse", "semTools", "VIM", "mice", "readxl", "writexl"))
+```
+
+### **3.3 Execução Completa**
+```cmd
+uv run run_complete_analysis.py
+```
+
+---
+
+# 🍎 INSTRUÇÕES PARA macOS
+
+## **ETAPA 1: INSTALAÇÃO DAS FERRAMENTAS BÁSICAS - macOS**
+
+### 🏠 **1.1 Instalando Homebrew (Gerenciador de Pacotes)**
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### 🐍 **1.2 Instalando Python**
+```bash
+brew install python
+python3 --version
+pip3 --version
+```
+
+### 📊 **1.3 Instalando R**
 ```bash
 brew install r
 ```
+Ou baixe manualmente de [r-project.org](https://www.r-project.org/)
 
-**Linux:**
+### ⚡ **1.4 Instalando UV**
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+source ~/.bashrc  # ou ~/.zshrc
+uv --version
+```
+
+### 🛠️ **1.5 Instalando Git**
+```bash
+brew install git
+git --version
+```
+
+## **ETAPA 2: BAIXANDO O PROJETO - macOS**
+
+### **Método A: Via Arquivo ZIP (Recomendado)**
+1. Duplo clique no arquivo **`SEM-Analysis.zip`** para extrair
+2. Abra o Terminal e navegue:
+   ```bash
+   cd ~/Downloads/SEM-Analysis  # ou onde você extraiu
+   ```
+
+### **Método B: Via Git Clone**
+```bash
+git clone https://github.com/SamoraDC/SEM-Analysis.git
+cd SEM-Analysis
+```
+
+## **ETAPA 3: EXECUTANDO A ANÁLISE - macOS**
+
+### **3.1 Configuração do Ambiente**
+```bash
+uv sync
+```
+
+### **3.2 Instalação dos Pacotes R**
+Abra o R no Terminal (`R`) e execute:
+```r
+install.packages(c("lavaan", "semPlot", "ggplot2", "dplyr", "corrplot", "psych", "tidyverse", "semTools", "VIM", "mice", "readxl", "writexl"))
+```
+
+### **3.3 Execução Completa**
+```bash
+uv run run_complete_analysis.py
+```
+
+---
+
+# 🐧 INSTRUÇÕES PARA LINUX
+
+## **ETAPA 1: INSTALAÇÃO DAS FERRAMENTAS BÁSICAS - LINUX**
+
+### 🐍 **1.1 Instalando Python**
+**Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install python3 python3-pip python3-venv
+python3 --version
+pip3 --version
+```
+
+**CentOS/RHEL/Fedora:**
+```bash
+sudo dnf install python3 python3-pip
+# ou para versões mais antigas: sudo yum install python3 python3-pip
+```
+
+### 📊 **1.2 Instalando R**
+**Ubuntu/Debian:**
 ```bash
 sudo apt install r-base r-base-dev
 ```
 
-#### 💻 **1.3 Instalando uma IDE (Recomendado - VSCode)**
-
-**VSCode (Recomendado para iniciantes):**
-1. Vá para [code.visualstudio.com](https://code.visualstudio.com)
-2. Baixe e instale para seu sistema operacional
-3. Instale as extensões:
-   - **Python** (Microsoft)
-   - **R** (REditorSupport)
-   - **Jupyter** (Microsoft)
-
-**Alternativas:**
-- **PyCharm Community** (Mais avançado para Python)
-- **RStudio** (Especializado em R)
-
-#### ⚡ **1.4 Instalando o Gerenciador UV (Obrigatório)**
-
-**Windows (PowerShell como Administrador):**
-```powershell
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+**CentOS/RHEL/Fedora:**
+```bash
+sudo dnf install R
 ```
 
-**macOS/Linux:**
+### ⚡ **1.3 Instalando UV**
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-**Verificar instalação:**
-```bash
+source ~/.bashrc
 uv --version
 ```
 
----
-
-### **ETAPA 2: BAIXANDO E CONFIGURANDO O PROJETO**
-
-#### 📥 **2.1 Baixando o Projeto**
-
-**Opção A - Git (se tiver Git instalado):**
+### 🛠️ **1.4 Instalando Git**
+**Ubuntu/Debian:**
 ```bash
-git clone [URL_DO_REPOSITORIO]
+sudo apt install git
+```
+
+**CentOS/RHEL/Fedora:**
+```bash
+sudo dnf install git
+```
+
+### 📦 **1.5 Dependências do Sistema (Ubuntu/Debian)**
+```bash
+# Necessário para alguns pacotes R
+sudo apt install libcurl4-openssl-dev libssl-dev libxml2-dev
+```
+
+## **ETAPA 2: BAIXANDO O PROJETO - LINUX**
+
+### **Método A: Via Arquivo ZIP (Recomendado)**
+```bash
+# Instalar unzip se necessário
+sudo apt install unzip  # Ubuntu/Debian
+# sudo dnf install unzip  # CentOS/RHEL/Fedora
+
+# Extrair arquivo
+unzip SEM-Analysis.zip
 cd SEM-Analysis
 ```
 
-**Opção B - Download Direto:**
-1. Baixe o arquivo ZIP do projeto
-2. Extraia para uma pasta (ex: `C:\Projetos\SEM-Analysis`)
-3. Abra o terminal nessa pasta
-
-#### 🔧 **2.2 Configurando o Ambiente Python**
-
+### **Método B: Via Git Clone**
 ```bash
-# 1. Navegar para a pasta do projeto
+git clone https://github.com/SamoraDC/SEM-Analysis.git
 cd SEM-Analysis
+```
 
-# 2. Instalar dependências automaticamente
+## **ETAPA 3: EXECUTANDO A ANÁLISE - LINUX**
+
+### **3.1 Configuração do Ambiente**
+```bash
 uv sync
-
-# 3. Verificar se funcionou
-uv run python --version
 ```
 
-#### 📊 **2.3 Configurando o R**
-
-Abra o R ou RStudio e execute:
-
-```r
-# Instalar pacotes necessários
-install.packages(c(
-  "lavaan",        # SEM Analysis
-  "semPlot",       # SEM Plots
-  "ggplot2",       # Gráficos
-  "dplyr",         # Manipulação de dados
-  "corrplot",      # Matriz de correlação
-  "psych",         # Análise psicométrica
-  "tidyverse",     # Pacotes essenciais
-  "semTools",      # Ferramentas SEM
-  "VIM",           # Dados faltantes
-  "mice",          # Imputação
-  "readxl",        # Ler Excel
-  "writexl"        # Escrever Excel
-))
-```
-
----
-
-### **ETAPA 3: REPRODUZINDO OS RESULTADOS DO RELATÓRIO**
-
-#### 🎯 **3.1 Execução Completa (Método Mais Fácil)**
-
+### **3.2 Instalação dos Pacotes R**
 ```bash
-# Este comando executa TUDO e reproduz o relatório completo
+# Abrir R
+R
+```
+Dentro do R:
+```r
+install.packages(c("lavaan", "semPlot", "ggplot2", "dplyr", "corrplot", "psych", "tidyverse", "semTools", "VIM", "mice", "readxl", "writexl"))
+quit()
+```
+
+### **3.3 Execução Completa**
+```bash
 uv run run_complete_analysis.py
 ```
 
-**⏱️ Tempo estimado:** 15-30 minutos
-**📊 Resultado:** Gera todas as análises do `Relatório.md`
-
-#### 🐍 **3.2 Execução Passo a Passo - Python**
-
-**Passo 1: Preparação dos Dados**
-```bash
-cd src/python/core/
-uv run dados_preparacao.py
-uv run dados_reais_final.py
-```
-
-**Passo 2: Análises Estatísticas**
-```bash
-cd ../analysis/
-uv run analise_demografica.py      # Perfil socioeconômico
-uv run analise_descritiva.py       # Estatísticas descritivas  
-uv run analise_sem_principal.py    # 🎯 SEM principal (r=0.896)
-uv run modelos_sem.py              # Modelos SEM avançados
-uv run machine_learning.py         # Random Forest & Clustering
-```
-
-**Passo 3: Visualizações**
-```bash
-cd ../visualization/
-uv run diagramas_sem.py            # Diagramas SEM completos
-uv run diagramas_profissionais.py  # Diagramas para publicação
-```
-
-**Passo 4: Consolidação**
-```bash
-cd ../core/
-uv run analise_final.py            # Resultado final consolidado
-```
-
-#### 📊 **3.3 Execução Passo a Passo - R**
-
-Abra o R/RStudio e execute:
-
-```r
-# 1. Preparação
-source("src/r/core/dados_preparacao.R")
-
-# 2. Análises principais
-source("src/r/analysis/analise_descritiva.R")
-source("src/r/analysis/analise_sem_principal.R")    # 🎯 SEM principal
-source("src/r/analysis/modelos_sem_rigorosos.R")
-source("src/r/analysis/analise_completa.R")
-```
-
 ---
 
-### **ETAPA 4: VERIFICANDO OS RESULTADOS**
+# 🎯 VERIFICAÇÃO DOS RESULTADOS (TODOS OS SISTEMAS)
 
-#### 📋 **4.1 Relatórios Gerados**
+Após executar `uv run run_complete_analysis.py`, você deve encontrar:
 
-Após a execução, verifique estes arquivos:
+### 📋 **Relatórios Gerados:**
+- ✅ `results/reports/Relatório.md` - Relatório principal (1,986 linhas)
+- ✅ `results/images/` - 58 imagens e diagramas  
+- ✅ `results/outputs/` - Dados processados
 
-- ✅ **`results/reports/Relatório.md`** - Relatório principal (1,986 linhas)
-- ✅ **`results/reports/RELATORIO_UNIFICADO_COMPLETO_FINAL.md`** - Relatório secundário
-- ✅ **`results/images/`** - 58 imagens e diagramas
-- ✅ **`results/outputs/`** - Dados e análises detalhadas
-
-#### 🎯 **4.2 Principais Descobertas Esperadas**
-
-Você deve encontrar estas descobertas no relatório:
-
+### 🎯 **Principais Descobertas Esperadas:**
 - **Correlação r = 0.896** entre recompensas e intenção comportamental
 - **R² = 80.3%** de variância explicada
 - **61.5%** dos usuários são mulheres
-- **82.2%** têm ensino médio ou superior
 - **4 clusters** comportamentais identificados
 
-#### 📊 **4.3 Principais Figuras Geradas**
 
-- `diagrama_sem_real.png` - Diagrama SEM principal
-- `correlacoes_dimensoes.png` - Mapa de correlações
-- `dashboard_socioeconomico_completo.png` - Dashboard executivo
 
 ---
 
@@ -284,60 +364,141 @@ SEM-Analysis/
 
 ---
 
-## ❗ SOLUÇÃO DE PROBLEMAS COMUNS
+# 🆘 SOLUÇÃO DE PROBLEMAS POR SISTEMA OPERACIONAL
 
-### 🐍 **Problemas com Python**
+## 🪟 **PROBLEMAS NO WINDOWS**
 
-**"Python não foi encontrado":**
-```bash
-# Windows: Reinstalar Python marcando "Add to PATH"
-# Ou usar Python via Windows Store
+### **"Python não foi encontrado"**
+```cmd
+# Reinstalar Python MARCANDO "Add to PATH"
+# Ou testar:
+py --version
 python --version
 ```
 
-**"uv não foi encontrado":**
-```bash
-# Reiniciar terminal após instalação
-# Ou instalar manualmente:
+### **"PowerShell não reconhece comandos"**
+```cmd
+# Executar PowerShell como Administrador
+# Verificar se PATH foi adicionado corretamente
+```
+
+### **"Erro ao instalar UV"**
+```powershell
+# Tentar método alternativo:
 pip install uv
+# Ou baixar manualmente do site: https://astral.sh/uv
 ```
 
-**"Erro de permissão":**
+### **"Pacotes R não instalam"**
+```r
+# Usar mirror brasileiro
+install.packages("lavaan", repos="https://cran-r.c3sl.ufpr.br/")
+```
+
+---
+
+## 🍎 **PROBLEMAS NO macOS**
+
+### **"Homebrew não instalado"**
 ```bash
-# Windows: Executar PowerShell como Administrador
-# Linux/Mac: Usar sudo apenas se necessário
+# Instalar Homebrew primeiro:
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### 📊 **Problemas com R**
-
-**"Pacote não pode ser instalado":**
-```r
-# Tentar com mirror diferente
-install.packages("lavaan", repos="https://cran.rstudio.com/")
-
-# Ou instalar dependências do sistema (Linux):
-# sudo apt-get install libcurl4-openssl-dev libssl-dev libxml2-dev
+### **"Command Line Tools não encontrado"**
+```bash
+# Instalar Xcode Command Line Tools:
+xcode-select --install
 ```
 
-**"Erro de compilação":**
-```r
-# Instalar versão binária
-install.packages("lavaan", type="binary")
+### **"Permissão negada"**
+```bash
+# Verificar permissões da pasta:
+chmod +x run_complete_analysis.py
 ```
 
-### 💻 **Problemas Gerais**
+### **"R não encontrado após instalação"**
+```bash
+# Verificar se está no PATH:
+echo $PATH
+# Ou usar caminho completo:
+/usr/local/bin/R
+```
 
-**"Erro de memória":**
-- Feche outras aplicações
-- Execute os scripts um por vez ao invés do script completo
+---
 
-**"Dados não encontrados":**
-- Verifique se está na pasta correta do projeto
-- Execute `ls` (Linux/Mac) ou `dir` (Windows) para ver os arquivos
+## 🐧 **PROBLEMAS NO LINUX**
 
-**"Demora muito para executar":**
-- Normal: O script completo pode levar 15-30 minutos
+### **"Pacote não encontrado" (Ubuntu/Debian)**
+```bash
+# Atualizar lista de pacotes:
+sudo apt update
+sudo apt upgrade
+
+# Instalar dependências:
+sudo apt install build-essential curl
+```
+
+### **"Erro de compilação R"**
+```bash
+# Instalar dependências para compilação:
+sudo apt install libcurl4-openssl-dev libssl-dev libxml2-dev
+sudo apt install libfontconfig1-dev libharfbuzz-dev libfribidi-dev
+```
+
+### **"UV não funciona após instalação"**
+```bash
+# Recarregar o shell:
+source ~/.bashrc
+# ou
+source ~/.zshrc
+
+# Verificar PATH:
+echo $PATH
+```
+
+### **"Permissões de Python"**
+```bash
+# Não usar sudo para pip:
+pip3 install --user uv
+# Ou usar venv:
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+## 💻 **PROBLEMAS GERAIS (TODOS OS SISTEMAS)**
+
+### **"Erro de memória"**
+- Feche navegadores e outros programas
+- Execute scripts individuais em vez do completo
+- Considere usar um computador com mais RAM
+
+### **"Script demora muito"**
+- ⏱️ **Normal:** 15-30 minutos para execução completa
+- Verifique se não travou: observe logs na tela
 - Execute por partes para testar
+
+### **"Arquivos não encontrados"**
+```bash
+# Verificar estrutura do projeto:
+ls -la    # Linux/Mac
+dir       # Windows
+
+# Deve ter: src/, data/, config/, README.md
+```
+
+### **"Resultados diferentes do esperado"**
+```bash
+# Verificar versões:
+python --version  # Deve ser 3.8+
+R --version       # Deve ser 4.0+
+uv --version
+
+# Executar verificação:
+uv run final_verification_report.py
+```
 
 ---
 
@@ -413,19 +574,23 @@ install.packages("lavaan", type="binary")
 ## 🎯 COMO USAR OS RESULTADOS
 
 ### **Para Pesquisadores:**
-1. **Consulte:** `results/reports/Relatório.md` para metodologia completa
-2. **Analise:** Diagramas SEM em `results/images/`
-3. **Replique:** Use os scripts em `src/python/` e `src/r/`
+1. **Siga as instruções** específicas do seu sistema operacional acima
+2. **Consulte:** `results/reports/Relatório.md` para metodologia completa
+3. **Analise:** Diagramas SEM em `results/images/`
+4. **Replique:** Use os scripts em `src/python/` e `src/r/`
 
 ### **Para Gestores Públicos:**
-1. **Leia:** Seção "Insights Estratégicos" do relatório
-2. **Foque:** Correlação r=0.896 (recompensas → intenção)
-3. **Implemente:** Sistemas de recompensas como prioridade
+1. **Execute a análise** seguindo as instruções do seu sistema operacional
+2. **Leia:** Seção "Insights Estratégicos" do relatório gerado
+3. **Foque:** Correlação r=0.896 (recompensas → intenção)
+4. **Implemente:** Sistemas de recompensas como prioridade
 
 ### **Para Desenvolvedores:**
-1. **Execute:** `run_complete_analysis.py` para reprodução completa
-2. **Modifique:** Scripts em `src/` para novas análises
-3. **Valide:** Use `final_verification_report.py` para verificação
+1. **Escolha seu SO:** Windows, macOS ou Linux (instruções acima)
+2. **Obtenha o projeto:** Via `SEM-Analysis.zip` ou git clone
+3. **Execute:** `uv run run_complete_analysis.py` para reprodução completa
+4. **Modifique:** Scripts em `src/` para novas análises
+5. **Valide:** Use `uv run final_verification_report.py` para verificação
 
 ---
 
@@ -454,30 +619,38 @@ Este projeto segue as melhores práticas de engenharia de software:
 
 **Licença:** MIT License - Veja [LICENSE](LICENSE) para detalhes
 
+**Repositório:** [https://github.com/SamoraDC/SEM-Analysis.git](https://github.com/SamoraDC/SEM-Analysis.git)
+
 **Para citar este trabalho:**
 ```
 SEM-Analysis: Análise de Estruturas de Equações para Transporte Público
 Correlação r=0.896 entre percepção de recompensas e intenção comportamental
 N=703 respondentes, 69 variáveis, 7 construtos latentes
+Disponível em: https://github.com/SamoraDC/SEM-Analysis.git
 ```
 
 ---
 
 ## 🚀 INÍCIO RÁPIDO
 
-### **Para Reprodução Completa (Recomendado):**
+### **Escolha seu sistema operacional e siga as instruções detalhadas acima:**
+
+- 🪟 **Windows:** Vá para a seção "INSTRUÇÕES PARA WINDOWS"
+- 🍎 **macOS:** Vá para a seção "INSTRUÇÕES PARA macOS"  
+- 🐧 **Linux:** Vá para a seção "INSTRUÇÕES PARA LINUX"
+
+### **Resumo Ultra-Rápido (Para Usuários Experientes):**
+
 ```bash
-# 1. Instalar UV
-curl -LsSf https://astral.sh/uv/install.sh | sh
+# 1. Extrair SEM-Analysis.zip ou fazer git clone
+# 2. Instalar dependências:
+uv sync  # Python
+# Instalar pacotes R conforme seu sistema
 
-# 2. Clonar projeto
-cd SEM-Analysis
-
-# 3. Configurar ambiente
-uv sync
-
-# 4. Reproduzir TUDO
+# 3. Executar análise completa:
 uv run run_complete_analysis.py
+
+# 4. Verificar resultados em results/reports/Relatório.md
 ```
 
 ### **Para Verificar Resultados:**
@@ -498,3 +671,31 @@ uv run final_verification_report.py
 **📋 RESULTADO:** Relatório completo com r=0.896 e 58 visualizações profissionais
 
 **⏱️ TEMPO:** 15-30 minutos para execução completa
+
+---
+
+## 🎯 O QUE VOCÊ CONSEGUIRÁ REPRODUZIR
+
+Seguindo qualquer uma das instruções específicas acima, você obterá:
+
+### ✅ **Relatório Científico Completo:**
+- **1,986 linhas** de análise estatística detalhada
+- **Correlação r = 0.896** validada cientificamente
+- **R² = 80.3%** de poder explicativo comprovado
+
+### ✅ **58 Visualizações Profissionais:**
+- Diagramas SEM publicáveis
+- Dashboards executivos  
+- Gráficos estatísticos avançados
+
+### ✅ **Dados Processados:**
+- **703 respondentes** analisados
+- **69 variáveis** processadas
+- **7 construtos latentes** validados
+
+### ✅ **Base Científica Sólida:**
+- Metodologia SEM rigorosa
+- Machine Learning aplicado
+- 4 segmentos comportamentais identificados
+
+**🎉 RESULTADO:** Projeto SEM-Analysis 100% reproduzido e funcional!
