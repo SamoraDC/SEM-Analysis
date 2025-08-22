@@ -5,10 +5,10 @@
 # Função para carregar dados reais (igual ao Python) - usando base R
 carregar_dados_reais <- function() {
   # Carregar dados reais dos CSVs (mesma estrutura do Python)
-  perfil <- read.csv('../../data/raw/csv_extraidos/Perfil Socioeconomico.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
-  qualidade <- read.csv('../../data/raw/csv_extraidos/Qualidade do serviço.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
-  percepcao <- read.csv('../../data/raw/csv_extraidos/Percepção novos serviços.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
-  intencao <- read.csv('../../data/raw/csv_extraidos/Intenção comportamental.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
+  perfil <- read.csv('data/raw/csv_extraidos/Perfil Socioeconomico.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
+  qualidade <- read.csv('data/raw/csv_extraidos/Qualidade do serviço.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
+  percepcao <- read.csv('data/raw/csv_extraidos/Percepção novos serviços.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
+  intencao <- read.csv('data/raw/csv_extraidos/Intenção comportamental.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
   
   cat(sprintf("   - Perfil: %d registros\n", nrow(perfil)))
   cat(sprintf("   - Qualidade: %d registros\n", nrow(qualidade)))

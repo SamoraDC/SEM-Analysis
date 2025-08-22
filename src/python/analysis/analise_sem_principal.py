@@ -35,7 +35,7 @@ def carregar_dados_processados():
     ]
     
     for arquivo in arquivos:
-        caminho = f'../../data/raw/csv_extraidos/{arquivo}'
+        caminho = f'data/raw/csv_extraidos/{arquivo}'
         df = pd.read_csv(caminho)
         nome = arquivo.replace('.csv', '').replace(' ', '_')
         datasets[nome] = df

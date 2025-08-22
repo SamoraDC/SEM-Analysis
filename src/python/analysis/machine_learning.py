@@ -42,7 +42,7 @@ def carregar_e_preparar_dados():
     
     for file in files:
         try:
-            df = pd.read_csv(f'../../data/raw/csv_extraidos/{file}', encoding='utf-8')
+            df = pd.read_csv(f'data/raw/csv_extraidos/{file}', encoding='utf-8')
             # Limpar nomes das colunas
             df.columns = [col.strip().replace('\xa0', '').replace('\n', '').replace('\r', '') 
                          for col in df.columns]

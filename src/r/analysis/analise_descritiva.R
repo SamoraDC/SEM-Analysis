@@ -7,11 +7,11 @@ main <- function() {
   cat("=== ANÁLISE DESCRITIVA COMPLETA - DADOS REAIS ===\n\n")
   
   # Carregar dados reais dos CSVs
-  perfil <- read.csv('../../data/raw/csv_extraidos/Perfil Socioeconomico.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
-  qualidade <- read.csv('../../data/raw/csv_extraidos/Qualidade do serviço.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
-  percepcao <- read.csv('../../data/raw/csv_extraidos/Percepção novos serviços.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
-  intencao <- read.csv('../../data/raw/csv_extraidos/Intenção comportamental.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
-  utilizacao <- read.csv('../../data/raw/csv_extraidos/Utilização.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
+  perfil <- read.csv('data/raw/csv_extraidos/Perfil Socioeconomico.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
+  qualidade <- read.csv('data/raw/csv_extraidos/Qualidade do serviço.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
+  percepcao <- read.csv('data/raw/csv_extraidos/Percepção novos serviços.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
+  intencao <- read.csv('data/raw/csv_extraidos/Intenção comportamental.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
+  utilizacao <- read.csv('data/raw/csv_extraidos/Utilização.csv', fileEncoding = "UTF-8", stringsAsFactors = FALSE)
   
   cat(sprintf("Total de respondentes: %d\n\n", nrow(perfil)))
   

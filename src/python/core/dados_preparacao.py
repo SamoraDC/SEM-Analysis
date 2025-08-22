@@ -3,8 +3,7 @@ import numpy as np
 import os
 
 # Corrigir caminhos para funcionar na estrutura reorganizada
-base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-csv_dir = os.path.join(base_dir, '..', 'csv_extraidos')
+csv_dir = 'data/raw/csv_extraidos'
 
 # Carregar dados
 perfil = pd.read_csv(os.path.join(csv_dir, 'Perfil Socioeconomico.csv'))
@@ -13,13 +12,20 @@ percepcao = pd.read_csv(os.path.join(csv_dir, 'Percepção novos serviços.csv')
 intencao = pd.read_csv(os.path.join(csv_dir, 'Intenção comportamental.csv'))
 utilizacao = pd.read_csv(os.path.join(csv_dir, 'Utilização.csv'))
 
+# Limpar nomes das colunas
+perfil.columns = [col.strip().replace('\xa0', '').replace('\n', '').replace('\r', '') for col in perfil.columns]
+qualidade.columns = [col.strip().replace('\xa0', '').replace('\n', '').replace('\r', '') for col in qualidade.columns]
+percepcao.columns = [col.strip().replace('\xa0', '').replace('\n', '').replace('\r', '') for col in percepcao.columns]
+intencao.columns = [col.strip().replace('\xa0', '').replace('\n', '').replace('\r', '') for col in intencao.columns]
+utilizacao.columns = [col.strip().replace('\xa0', '').replace('\n', '').replace('\r', '') for col in utilizacao.columns]
+
 print('=== DADOS REAIS PARA VERIFICACAO DO RELATORIO ===')
 print(f'Total: {len(perfil)} respondentes')
 print()
 
 # 1. GÊNERO
 print('1. GENERO:')
-genero = perfil['Gênero\xa0'].value_counts()
+genero = perfil['Gênero'].value_counts()
 total = len(perfil)
 for k, v in genero.items():
     print(f'   {k}: {v} ({v/total*100:.1f}%)')
@@ -27,7 +33,7 @@ print()
 
 # 2. ESCOLARIDADE
 print('2. ESCOLARIDADE:')
-esc = perfil['Nível de escolaridade\n'].value_counts()
+esc = perfil['Nível de escolaridade'].value_counts()
 for k, v in esc.items():
     print(f'   {k}: {v} ({v/total*100:.1f}%)')
 print()
@@ -48,28 +54,28 @@ print()
 
 # 5. SITUAÇÃO PROFISSIONAL
 print('5. SITUACAO PROFISSIONAL:')
-prof = perfil['Situação Profissional\xa0'].value_counts()
+prof = perfil['Situação Profissional'].value_counts()
 for k, v in prof.items():
     print(f'   {k}: {v} ({v/total*100:.1f}%)')
 print()
 
 # 6. PRINCIPAL MEIO DE TRANSPORTE
 print('6. PRINCIPAL MEIO DE TRANSPORTE:')
-transporte = utilizacao['Qual é o seu principal meio de transporte?'].value_counts()
+transporte = utilizacao['Qual a forma que você faz a maioria das viagens?'].value_counts()
 for k, v in transporte.items():
     print(f'   {k}: {v} ({v/len(utilizacao)*100:.1f}%)')
 print()
 
 # 7. CARTEIRA DE MOTORISTA
 print('7. CARTEIRA DE MOTORISTA:')
-carteira = utilizacao['Você possui carteira de motorista?'].value_counts()
+carteira = utilizacao['Você tem carteira de motorista?'].value_counts()
 for k, v in carteira.items():
     print(f'   {k}: {v} ({v/len(utilizacao)*100:.1f}%)')
 print()
 
 # 8. FREQUÊNCIA DE USO TP
 print('8. FREQUENCIA DE USO TP:')
-freq = utilizacao['Com que frequência você utiliza o transporte público?'].value_counts()
+freq = utilizacao['Como você define sua frequência de uso do transporte público?'].value_counts()
 for k, v in freq.items():
     print(f'   {k}: {v} ({v/len(utilizacao)*100:.1f}%)')
 print()

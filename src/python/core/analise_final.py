@@ -17,10 +17,10 @@ def main():
     
     # 1. CARREGAR DADOS
     print("1. Carregando dados...")
-    perfil = pd.read_csv('../../data/raw/csv_extraidos/Perfil Socioeconomico.csv')
-    qualidade = pd.read_csv('../../data/raw/csv_extraidos/Qualidade do serviço.csv')
-    percepcao = pd.read_csv('../../data/raw/csv_extraidos/Percepção novos serviços.csv')
-    intencao = pd.read_csv('../../data/raw/csv_extraidos/Intenção comportamental.csv')
+    perfil = pd.read_csv('data/raw/csv_extraidos/Perfil Socioeconomico.csv')
+    qualidade = pd.read_csv('data/raw/csv_extraidos/Qualidade do serviço.csv')
+    percepcao = pd.read_csv('data/raw/csv_extraidos/Percepção novos serviços.csv')
+    intencao = pd.read_csv('data/raw/csv_extraidos/Intenção comportamental.csv')
     
     print(f"   - Perfil: {len(perfil)} registros")
     print(f"   - Qualidade: {len(qualidade)} registros")

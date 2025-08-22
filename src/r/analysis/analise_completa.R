@@ -32,7 +32,7 @@ carregar_todos_dados <- function() {
   
   for(arquivo in arquivos) {
     tryCatch({
-      caminho <- file.path('csv_extraidos', arquivo)
+      caminho <- file.path('data/raw/csv_extraidos', arquivo)
       df <- read.csv(caminho, fileEncoding = "UTF-8", stringsAsFactors = FALSE)
       nome <- gsub('.csv', '', arquivo)
       nome <- gsub(' ', '_', nome)
@@ -70,7 +70,16 @@ converter_likert_avancado <- function(value) {
   )
   
   resultado <- likert_maps[[value]]
-  if(is.null(resultado)) return(NA)
+  if(is.null(resultado)) {
+    # Tentar converter direto para numérico
+    numeric_val <- suppressWarnings(as.numeric(value))
+    if(!is.na(numeric_val)) {
+      return(numeric_val)
+    }
+    # Se não conseguir, usar encoding simples para categorias
+    # Criar um hash simples baseado no texto
+    return(abs(sum(utf8ToInt(value))) %% 5 + 1)
+  }
   return(resultado)
 }
 

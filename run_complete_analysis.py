@@ -20,13 +20,25 @@ def run_script(script_path, description):
     print(f"📄 Script: {script_path}")
     print('='*60)
     
+    # Verificar se o arquivo existe
+    if not os.path.exists(script_path):
+        print(f"❌ ARQUIVO NÃO ENCONTRADO: {script_path}")
+        return False
+    
     try:
+        # Configurar ambiente para UTF-8
+        env = os.environ.copy()
+        env['PYTHONIOENCODING'] = 'utf-8'
+        env['LC_ALL'] = 'pt_BR.UTF-8'
+        
         if script_path.endswith('.py'):
-            result = subprocess.run([sys.executable, script_path], 
-                                  capture_output=True, text=True, cwd=Path(script_path).parent)
+            # Usar uv run para scripts Python (executar do diretório raiz)
+            result = subprocess.run(['uv', 'run', script_path], 
+                                  capture_output=True, text=True, cwd='.', env=env)
         elif script_path.endswith('.R'):
+            # Usar Rscript para scripts R (executar do diretório raiz)
             result = subprocess.run(['Rscript', script_path], 
-                                  capture_output=True, text=True, cwd=Path(script_path).parent)
+                                  capture_output=True, text=True, cwd='.', env=env)
         else:
             print(f"❌ Tipo de arquivo não suportado: {script_path}")
             return False
@@ -38,8 +50,12 @@ def run_script(script_path, description):
                 print(result.stdout)
         else:
             print(f"❌ ERRO: {description}")
-            print("📤 Stderr:")
-            print(result.stderr)
+            if result.stderr:
+                print("📤 Stderr:")
+                print(result.stderr)
+            if result.stdout:
+                print("📤 Stdout:")
+                print(result.stdout)
             return False
             
     except Exception as e:
