@@ -59,8 +59,16 @@ Este projeto contém uma análise completa de **Structural Equation Modeling (SE
 
 ### ⏱️ **TEMPO TOTAL ESTIMADO:**
 - **Instalação:** 10-15 minutos
+- **Instalação R:** 5-10 minutos (CRÍTICO - siga instruções detalhadas)
 - **Execução:** 15-30 minutos  
-- **Total:** 25-45 minutos
+- **Total:** 30-55 minutos
+
+### ⚠️ **REQUISITO CRÍTICO - INSTALAÇÃO DO R:**
+**IMPORTANTE:** A instalação dos pacotes R requer passos específicos:
+1. Use `R.exe` (não RStudio)
+2. Selecione mirror CRAN quando solicitado
+3. Aguarde instalação completa (5-10 min)
+**📋 Instruções detalhadas nas seções específicas por SO abaixo**
 
 ---
 
@@ -133,11 +141,30 @@ cd SEM-Analysis
 uv sync
 ```
 
-### **3.2 Instalação dos Pacotes R**
-Abra o R e execute:
+### **3.2 Instalação dos Pacotes R - PASSO A PASSO DETALHADO**
+
+**IMPORTANTE:** Siga estes passos EXATAMENTE como mostrado:
+
+1. **Abra o PowerShell** na pasta do projeto
+2. **Execute:** `R.exe`
+3. **No R, execute o comando de instalação:**
 ```r
 install.packages(c("lavaan", "semPlot", "ggplot2", "dplyr", "corrplot", "psych", "tidyverse", "semTools", "VIM", "mice", "readxl", "writexl"))
 ```
+
+4. **CRÍTICO:** Quando aparecer "Please select a CRAN mirror":
+   - **Digite:** `1` (ou escolha um mirror brasileiro como `14` ou `15`)
+   - **Pressione:** Enter
+   - **Aguarde:** A instalação de todas as dependências (pode demorar 5-10 minutos)
+
+5. **Confirme a instalação:**
+```r
+library(lavaan)
+library(ggplot2)
+q()  # Para sair do R
+```
+
+**🎯 RESULTADO ESPERADO:** Todos os pacotes instalados sem erro!
 
 ### **3.3 Execução Completa - REPRODUÇÃO 100% GARANTIDA**
 ```cmd
@@ -210,11 +237,30 @@ cd SEM-Analysis
 uv sync
 ```
 
-### **3.2 Instalação dos Pacotes R**
-Abra o R no Terminal (`R`) e execute:
+### **3.2 Instalação dos Pacotes R - PASSO A PASSO DETALHADO**
+
+**IMPORTANTE:** Siga estes passos EXATAMENTE como mostrado:
+
+1. **Abra o Terminal** na pasta do projeto
+2. **Execute:** `R`
+3. **No R, execute o comando de instalação:**
 ```r
 install.packages(c("lavaan", "semPlot", "ggplot2", "dplyr", "corrplot", "psych", "tidyverse", "semTools", "VIM", "mice", "readxl", "writexl"))
 ```
+
+4. **CRÍTICO:** Quando aparecer "Please select a CRAN mirror":
+   - **Digite:** `1` (ou escolha um mirror próximo como EUA ou Canadá)
+   - **Pressione:** Enter
+   - **Aguarde:** A instalação de todas as dependências (pode demorar 5-10 minutos)
+
+5. **Confirme a instalação:**
+```r
+library(lavaan)
+library(ggplot2)
+q()  # Para sair do R
+```
+
+**🎯 RESULTADO ESPERADO:** Todos os pacotes instalados sem erro!
 
 ### **3.3 Execução Completa - REPRODUÇÃO 100% GARANTIDA**
 ```bash
@@ -310,16 +356,30 @@ cd SEM-Analysis
 uv sync
 ```
 
-### **3.2 Instalação dos Pacotes R**
-```bash
-# Abrir R
-R
-```
-Dentro do R:
+### **3.2 Instalação dos Pacotes R - PASSO A PASSO DETALHADO**
+
+**IMPORTANTE:** Siga estes passos EXATAMENTE como mostrado:
+
+1. **Abra o Terminal** na pasta do projeto
+2. **Execute:** `R`
+3. **No R, execute o comando de instalação:**
 ```r
 install.packages(c("lavaan", "semPlot", "ggplot2", "dplyr", "corrplot", "psych", "tidyverse", "semTools", "VIM", "mice", "readxl", "writexl"))
-quit()
 ```
+
+4. **CRÍTICO:** Quando aparecer "Please select a CRAN mirror":
+   - **Digite:** `1` (ou escolha um mirror próximo ao Brasil)
+   - **Pressione:** Enter
+   - **Aguarde:** A instalação de todas as dependências (pode demorar 5-10 minutos)
+
+5. **Confirme a instalação:**
+```r
+library(lavaan)
+library(ggplot2)
+quit()  # Para sair do R
+```
+
+**🎯 RESULTADO ESPERADO:** Todos os pacotes instalados sem erro!
 
 ### **3.3 Execução Completa - REPRODUÇÃO 100% GARANTIDA**
 ```bash
@@ -423,10 +483,31 @@ pip install uv
 ```
 
 ### **"Pacotes R não instalam"**
+
+**SOLUÇÃO PASSO A PASSO:**
+
+1. **Abra R.exe** (não RStudio)
+2. **Execute o comando completo:**
 ```r
-# Usar mirror brasileiro
-install.packages("lavaan", repos="https://cran-r.c3sl.ufpr.br/")
+install.packages(c("lavaan", "semPlot", "ggplot2", "dplyr", "corrplot", "psych", "tidyverse", "semTools", "VIM", "mice", "readxl", "writexl"))
 ```
+
+3. **Quando pedir mirror CRAN:**
+   - Digite `1` e pressione Enter
+   - **OU** use mirror brasileiro:
+```r
+install.packages(c("lavaan", "semPlot", "ggplot2"), repos="https://cran-r.c3sl.ufpr.br/")
+```
+
+4. **Se ainda der erro, instale um por vez:**
+```r
+install.packages("lavaan")
+install.packages("semPlot")
+install.packages("ggplot2")
+# Continue com os outros...
+```
+
+**🎯 CRÍTICO:** R.exe funciona melhor que RStudio para instalação!
 
 ---
 
